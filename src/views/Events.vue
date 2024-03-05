@@ -103,6 +103,7 @@ const redirectToForm = (href) => {
 
 const selectCategory = (selectedCat) => {
   category.value = selectedCat;
+  isLoading.value = true;
   if(category.value=='Tech Events'){
     eventsResponse('tech');
   }
