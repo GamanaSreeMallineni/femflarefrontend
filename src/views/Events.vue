@@ -10,11 +10,9 @@
               <div class="sm:hidden">
                 <label for="Tab" class="sr-only">Tab</label>
 
-                <select id="Tab" class="w-full rounded-md border-gray-200">
-                  <option>Settings</option>
-                  <option>Messages</option>
-                  <option>Archive</option>
-                  <option select>Notifications</option>
+                <select id="Tab" class="w-full rounded-md border-gray-200" v-model="category"
+                  @change="selectCategoryMobile()">
+                  <option v-for="cat in categories" :key="cat" :value="cat">{{ cat }}</option>
                 </select>
               </div>
 
@@ -22,15 +20,15 @@
                 <div class="border-b border-gray-200">
                   <nav class="-mb-px flex gap-6" aria-label="Tabs">
 
-                    
-                        <button href="#" v-for="cat in categories" :key="cat" :class="{
-                          'active': category === cat,
-                          'inactive': category !== cat
-                        }" @click="selectCategory(cat)"
-                          class="inline-flex shrink-0 items-center gap-2 border-b-2 px-1 pb-4 text-sm font-medium">
-                          {{ cat }}
-                      </button>
-                     
+
+                    <button href="#" v-for="cat in categories" :key="cat" :class="{
+                  'active': category === cat,
+                  'inactive': category !== cat
+                }" @click="selectCategory(cat)"
+                      class="inline-flex shrink-0 items-center gap-2 border-b-2 px-1 pb-4 text-sm font-medium">
+                      {{ cat }}
+                    </button>
+
 
 
                   </nav>
@@ -104,19 +102,30 @@ const redirectToForm = (href) => {
 const selectCategory = (selectedCat) => {
   category.value = selectedCat;
   isLoading.value = true;
-  if(category.value=='Tech Events'){
+  if (category.value == 'Tech Events') {
     eventsResponse('tech');
   }
-  else if(category.value=='Non Tech Events'){
+  else if (category.value == 'Non Tech Events') {
     eventsResponse('nontech');
   }
-  else if(category.value=='Sports'){
+  else if (category.value == 'Sports') {
     eventsResponse('sports');
   }
 }
 
+const selectCategoryMobile = () => {
+  isLoading.value = true;
+  if (category.value === 'Tech Events') {
+    eventsResponse('tech');
+  } else if (category.value === 'Non Tech Events') {
+    eventsResponse('nontech');
+  } else if (category.value === 'Sports') {
+    eventsResponse('sports');
+  }
+};
+
 function eventsResponse(category) {
-  fetch('https://kl-femflare.fly.dev/api/events/'+category)
+  fetch('https://kl-femflare.fly.dev/api/events/' + category)
     .then(response => {
       isLoading.value = false;
       if (!response.ok) {
@@ -150,5 +159,23 @@ eventsResponse('tech');
   /* Change border color for inactive categories */
   color: #9ca3af;
   /* Change text color for inactive categories */
+}
+
+select {
+  /* Base styles */
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+/* Define active style for select */
+select.active {
+  border-color: #3182ce;
+  /* Change border color for active category */
+}
+
+/* Define inactive style for select */
+select.inactive {
+  border-color: transparent;
+  /* Change border color for inactive categories */
 }
 </style>
