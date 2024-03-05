@@ -5,21 +5,19 @@
       <div class="container mx-auto px-4">
         <div class="flex flex-col items-center justify-center text-center" v-if="isLargeScreen">
           <kinesis-element :strength="10">
-            <h1 class="text-5xl lg:text-9xl font-bold text-pink-500 mb-8 "
+            <h1 class="text-5xl lg:text-9xl font-extrabold text-transparent bg-gradient-to-r from-green-300 via-blue-500 to-purple-300 bg-clip-text mb-8 "
               style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
               FEMFLARE 2024</h1>
-
           </kinesis-element>
           <div class="flex items-center justify-center mb-8">
 
             <div class="flex flex-col items-center">
               <kinesis-element :strength="5">
-
                 <Countdown labelColor="#ffffff" deadlineISO="2024-03-15 00:00:00" mainColor="#FF407D" />
               </kinesis-element>
             </div>
           </div>
-          <p class="text-lg text-white mb-8">Join us for the most amazing event of the year!</p>
+          <p class="text-lg text-green-50 mb-8">Join us for the most amazing event of the year!</p>
         </div>
         <div class="flex flex-col items-center justify-center text-center" v-else>
 

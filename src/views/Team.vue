@@ -1,4 +1,5 @@
 Gayatri T KLU, [03-03-2024 12:02]
+
 <script setup>
 import { ref } from 'vue';
 
@@ -10,6 +11,7 @@ import varshitha from '../assets/images/students/VarshithaChiefStudentCoordinato
 import vallika from '../assets/images/students/SrivallikaSecretary.jpg'
 import anjali from '../assets/images/students/AnjaliTresurer.jpeg'
 import khyathi from '../assets/images/students/KhyathiWebsite.png'
+import snehitha from '../assets/images/students/snehitha.jpg'
 import navya from '../assets/images/students/NavyaTechevents.jpg'
 import rasagna from '../assets/images/students/Rasgna echevents.png'
 import divyateja from '../assets/images/students/DivyaTejaSpotEvents.jpg'
@@ -29,14 +31,17 @@ import manasa from '../assets/images/students/ManasaDrafting.jpg'
 import harshitha from '../assets/images/students/HarshithaDesigning.jpeg'
 import vaishnavi from '../assets/images/students/vaishnaviTransport.jpg'
 
+import { KinesisContainer, KinesisElement } from 'vue-kinesis'
+
 const team = ref([
     { name: 'Gayathri Thotakura', title: 'Chief Executive', imgsrc: gayathri },
     { name: 'NagaMani Thota', title: 'Chief Executive', imgsrc: nagamani },
-    { name: 'SaiSree', title: 'Chief Executive', imgsrc: saisree }, 
+    { name: 'SaiSree', title: 'Chief Executive', imgsrc: saisree },
     { name: 'JayaHarshitha', title: 'Chief Executive', imgsrc: jayaharshitha },
     { name: 'Varshitha', title: 'Chief Student Coordinator', imgsrc: varshitha },
     { name: 'Sri vallika', title: 'Secretary', imgsrc: vallika },
-    { name: 'khyathi', title: 'Secretary', imgsrc: khyathi },
+    { name: 'Snehitha', title: 'Website', imgsrc: snehitha },
+    { name: 'khyathi', title: 'Website', imgsrc: khyathi },
     { name: 'Anjali', title: 'Tresurer', imgsrc: anjali },
     { name: 'Navya', title: 'Chief Technical Events', imgsrc: navya },
     { name: 'Rasagna', title: 'Chief Technical Events', imgsrc: rasagna },
@@ -44,7 +49,7 @@ const team = ref([
     { name: 'TRISHITHA', title: 'Chief PR', imgsrc: trishitha },
     { name: 'SAI SRI', title: 'Chief Sponsorships', imgsrc: saisri },
     { name: 'Johana', title: 'Chief Sponsorships', imgsrc: johana },
-    { name: 'Komali Kusuma', title: 'Chief StageManagement & Stalls', imgsrc: saisri },
+    { name: 'Komali Kusuma', title: 'Chief StageManagement & Stalls', imgsrc: komalikusuma },
     { name: 'ZiyaAfreen', title: 'Chief Culturals', imgsrc: ziyaafreen },
     { name: 'Keerthana', title: 'Chief Hospitality', imgsrc: keerthana },
     { name: 'Pranitha', title: 'Chief Creative Arts', imgsrc: Pranitha },
@@ -55,16 +60,19 @@ const team = ref([
     { name: 'Manasa', title: 'Chief Drafting', imgsrc: manasa },
     { name: 'Harshitha', title: 'Chief Designing', imgsrc: harshitha },
     { name: 'vaishnavi', title: 'Chief Transport', imgsrc: vaishnavi },
+
 ]);
 </script>
 
 Gayatri T KLU, [03-03-2024 12:02]
+
 <template>
     <div class="py-20 bg-gray-900">
         <div class="container mx-auto px-6 md:px-12 xl:px-32">
             <div class="grid gap-12 items-center md:grid-cols-3">
-                <div class="space-y-4 text-center shadow-md shadow-pink-200" v-for="(member, index) in team" :key="index">
-                    <img class="w-64 h-64 mx-auto object-cover rounded-xl md:w-40 md:h-40 lg:w-64 lg:h-64"
+                <div class="space-y-4 text-center rounded-xl shadow-md shadow-pink-200" v-for="(member, index) in team"
+                    :key="index">
+                    <img class="w-64 h-64 mx-auto mt-5 object-cover rounded-xl md:w-40 md:h-40 lg:w-64 lg:h-64"
                         :src="member.imgsrc" alt="woman" width="640" height="805" loading="lazy">
                     <div>
                         <h4 class="text-2xl text-gray-50">{{ member.name }}</h4>
@@ -74,9 +82,10 @@ Gayatri T KLU, [03-03-2024 12:02]
 
             </div>
         </div>
+
     </div>
 </template>
-  
+
 
 <style>
 /* Your custom styles can be added here */

@@ -21,10 +21,7 @@
           </div>
         </div>
         <div class="flex w-1/2 flex-wrap">
-          <div class="w-full p-1 md:p-2">
-            <img alt="gallery" class="block h-full w-full rounded-lg object-cover object-center"
-              src="../assets/images/gallery/IMG_2994.jpg" />
-          </div>
+     
           <div class="w-1/2 p-1 md:p-2">
             <img alt="gallery" class="block h-full w-full rounded-lg object-cover object-center"
               src="../assets/images/gallery/IMG_2907.jpg" />
