@@ -1,5 +1,5 @@
 <template>
-  <div class="h-screen bg-gray-900">
+  <div class="h-screen bg-gray-900 pt-14">
     <section id="events">
       <main class="p-5 bg-light-pink">
         <div class="flex justify-center items-start my-2">

@@ -1,4 +1,3 @@
-Gayatri T KLU, [03-03-2024 12:02]
 
 <script setup>
 import { ref } from 'vue';
@@ -63,8 +62,6 @@ const team = ref([
 
 ]);
 </script>
-
-Gayatri T KLU, [03-03-2024 12:02]
 
 <template>
     <div class="py-20 bg-gray-900">

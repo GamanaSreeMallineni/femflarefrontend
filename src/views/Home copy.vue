@@ -1,37 +1,45 @@
-<script setup>
-import { onMounted } from 'vue';
-import { useAuthStore } from '@/stores/auth';
-const authStore = useAuthStore()
-
-</script>
-
 <template>
-  <div class="bg-gray-900 min-h-screen flex items-center justify-center">
-    <div class="container mx-auto px-4">
-      <div class="flex flex-col items-center justify-center text-center">
-        <h1 class="text-5xl font-bold text-pink-500 mb-8">FEMFLARE 2024</h1>
-        <div class="flex items-center justify-center mb-8">
-          <img src="https://via.placeholder.com/200x200" alt="Beautiful flowers"
-            class="w-48 h-48 rounded-full shadow-lg mr-4">
-          <div class="flex flex-col items-center">
-            <h2 class="text-3xl font-semibold text-pink-500 mb-2">Countdown:</h2>
-            <div class="flex items-center justify-center">
-              <div class="text-6xl font-bold text-white mr-2">00</div>
-              <div class="text-6xl font-bold text-white mr-2">00</div>
-              <div class="text-6xl font-bold text-white mr-2">00</div>
-              <div class="text-6xl font-bold text-white mr-2">:</div>
-              <div class="text-6xl font-bold text-white mr-2">00</div>
-              <div class="text-6xl font-bold text-white mr-2">00</div>
-              <div class="text-6xl font-bold text-white mr-2">:</div>
-              <div class="text-6xl font-bold text-white mr-2">00</div>
-              <div class="text-6xl font-bold text-white">00</div>
+
+  <kinesis-container>
+    <div class="bg-gradient-to-br from-pink-500 to-gray-900 min-h-screen flex items-center justify-center">
+      <div class="container mx-auto px-4">
+        <div class="flex flex-col items-center justify-center text-center" v-if="isLargeScreen">
+          <kinesis-element :strength="10">
+            <h1 class="text-5xl lg:text-9xl font-extrabold text-transparent bg-gradient-to-r from-green-300 via-blue-500 to-purple-300 bg-clip-text mb-8 "
+              style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+              FEMFLARE 2024</h1>
+          </kinesis-element>
+          <div class="flex items-center justify-center mb-8">
+
+            <div class="flex flex-col items-center">
+              <kinesis-element :strength="5">
+                <Countdown labelColor="#ffffff" deadlineISO="2024-03-15 00:00:00" mainColor="#FF407D" />
+              </kinesis-element>
             </div>
           </div>
+          <p class="text-lg text-green-50 mb-8">Join us for the most amazing event of the year!</p>
         </div>
-        <p class="text-lg text-white mb-8">Join us for the most amazing event of the year!</p>
+        <div class="flex flex-col items-center justify-center text-center" v-else>
+
+          <h1 class="text-5xl font-bold text-pink-500 mb-8 "
+            style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+            FEMFLARE 2024</h1>
+
+
+          <div class="flex items-center justify-center mb-8">
+
+            <div class="flex flex-col items-center">
+
+
+              <Countdown labelColor="#ffffff" deadlineISO="2024-03-15 00:00:00" mainColor="#FF407D" />
+
+            </div>
+          </div>
+          <p class="text-lg text-white mb-8">Join us for the most amazing event of the year!</p>
+        </div>
       </div>
     </div>
-  </div>
+  </kinesis-container>
   <section class="bg-gray-900 h-full" id="about">
     <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
       <div class="mr-auto place-self-center lg:col-span-7">
@@ -52,53 +60,33 @@ const authStore = useAuthStore()
   </section>
 </template>
 
+<script setup>
+
+import { ref, onMounted, onUnmounted } from 'vue';
+import { KinesisContainer, KinesisElement } from 'vue-kinesis'
+import { Countdown } from 'vue3-flip-countdown'
+
+const isLargeScreen = ref(window.matchMedia('(min-width: 768px)').matches);
+console.log(isLargeScreen)
+const handleResize = () => {
+  isLargeScreen.value = window.matchMedia('(min-width: 768px)').matches;
+};
+
+onMounted(() => {
+  window.addEventListener('resize', handleResize);
+});
+
+onUnmounted(() => {
+  window.removeEventListener('resize', handleResize);
+});
+</script>
+
+<script>
+
+</script>
+
 <style scoped>
-.hero {
-  background-image: url('../assets/images/logos/bg.png');
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  color: white;
-  font-size: 2rem;
-  background-color: pink;
-}
-
-@media (max-width: 475px) {
-  .hero {
-    height: 80vh;
-    font-size: 1.5rem;
-  }
-}
-
-@media (max-width: 768px) {
-  .hero {
-    height: 50vh;
-    font-size: 1.5rem;
-  }
-}
-
-@media (max-width: 640px) {
-  .hero {
-    height: 20vh;
-    font-size: 1.2rem;
-  }
-}
-
-@media (max-width: 840px) {
-  .hero {
-    height: 20vh;
-    font-size: 1.2rem;
-  }
-}
-
-@media (max-width: 1040px) {
-  .hero {
-    height: 20vh;
-    font-size: 1.2rem;
-  }
+canvas {
+  display: block;
 }
 </style>
