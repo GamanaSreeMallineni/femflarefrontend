@@ -55,34 +55,33 @@ const handleSubmit = async () => {
 };
 
 </script>
-
 <template>
     <section class="h-screen bg-gray-900 flex items-center justify-center">
-        <div class="w-full h-3/2 max-w-sm mx-auto overflow-hidden bg-white rounded-lg shadow-md dark:bg-gray-800">
+        <div class="w-full h-3/2 max-w-sm mx-auto overflow-hidden bg-gray-800 rounded-lg shadow-md">
             <div class="px-6 py-4">
                 <div class="flex justify-center mx-auto">
                     <img class="w-auto h-24" src="../assets/logo.png" alt="">
                 </div>
                 <p class="mt-1 text-center text-pink-300">Embrace the Blooms of Femininity</p>
-                <p class="text-center" :class="messageColor">{{ message }}</p>
+                <p class="text-center text-pink-300">{{ message }}</p>
                 <h3 class="mt-2 text-xl font-medium text-center text-gray-100">Signup</h3>
 
 
                 <form @submit.prevent="handleSubmit">
                     <div class="w-full mt-4">
                         <input v-model="username"
-                            class="block w-full px-4 py-2 mt-2 text-gray-50 placeholder-gray-500 bg-white border rounded-lg dark:bg-gray-800 dark:border-gray-600 dark:placeholder-gray-400 focus:border-blue-400 dark:focus:border-blue-300 focus:ring-opacity-40 focus:outline-none focus:ring focus:ring-blue-300"
+                            class="block w-full px-4 py-2 mt-2 text-gray-50 placeholder-gray-400 bg-gray-800 border rounded-lg focus:border-blue-400 focus:ring-opacity-40 focus:outline-none focus:ring focus:ring-blue-300"
                             type="text" placeholder="Username" aria-label="username" name="username" required />
                     </div>
 
                     <div class="w-full mt-4">
                         <input v-model="password"
-                            class="block w-full px-4 py-2 mt-2 text-gray-700 placeholder-gray-500 bg-white border rounded-lg dark:bg-gray-800 dark:border-gray-600 dark:placeholder-gray-400 focus:border-blue-400 dark:focus:border-blue-300 focus:ring-opacity-40 focus:outline-none focus:ring focus:ring-blue-300"
+                            class="block w-full px-4 py-2 mt-2 text-gray-50 placeholder-gray-400 bg-gray-800 border rounded-lg focus:border-blue-400 focus:ring-opacity-40 focus:outline-none focus:ring focus:ring-blue-300"
                             type="password" placeholder="Password" aria-label="Password" required />
                     </div>
                     <div class="w-full mt-4">
                         <input v-model="password2"
-                            class="block w-full px-4 py-2 mt-2 text-gray-700 placeholder-gray-500 bg-white border rounded-lg dark:bg-gray-800 dark:border-gray-600 dark:placeholder-gray-400 focus:border-blue-400 dark:focus:border-blue-300 focus:ring-opacity-40 focus:outline-none focus:ring focus:ring-blue-300"
+                            class="block w-full px-4 py-2 mt-2 text-gray-50 placeholder-gray-400 bg-gray-800 border rounded-lg focus:border-blue-400 focus:ring-opacity-40 focus:outline-none focus:ring focus:ring-blue-300"
                             type="password" placeholder="Confirm-Password" aria-label="Password" required />
                     </div>
 
@@ -97,15 +96,16 @@ const handleSubmit = async () => {
                 </form>
             </div>
 
-            <div class="flex items-center justify-center py-4 text-center bg-gray-50 dark:bg-gray-700">
-                <span class="text-sm text-gray-600 dark:text-gray-200">have an account? </span>
+            <div class="flex items-center justify-center py-4 text-center bg-gray-700">
+                <span class="text-sm text-gray-200">have an account? </span>
 
                 <a href="#/login"
-                    class="mx-2 text-sm font-bold text-blue-500 dark:text-blue-400 hover:underline">Login</a>
+                    class="mx-2 text-sm font-bold text-blue-400 hover:underline">Login</a>
             </div>
         </div>
     </section>
 
 </template>
+
 
 <style></style>
