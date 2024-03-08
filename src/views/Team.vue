@@ -50,6 +50,7 @@ const team = ref([
     { name: 'Johana', title: 'Chief Sponsorships', imgsrc: johana },
     { name: 'Komali Kusuma', title: 'Chief StageManagement & Stalls', imgsrc: komalikusuma },
     { name: 'ZiyaAfreen', title: 'Chief Culturals', imgsrc: ziyaafreen },
+    { name: 'Sahithi', title: 'Literary Events Chief', imgsrc: sahithi },
     { name: 'Keerthana', title: 'Chief Hospitality', imgsrc: keerthana },
     { name: 'Pranitha', title: 'Chief Creative Arts', imgsrc: Pranitha },
     { name: 'Praharshini', title: 'Chief Broadcasting', imgsrc: praharshini },
@@ -67,11 +68,11 @@ const team = ref([
     <div class="py-20 bg-gray-900">
         <div class="container mx-auto px-6 md:px-12 xl:px-32">
             <div class="grid gap-12 items-center md:grid-cols-3">
-                <div class="space-y-4 text-center rounded-xl shadow-md shadow-pink-200" v-for="(member, index) in team"
+                <div class="space-y-4 text-center rounded-xl shadow-lg shadow-pink-200" v-for="(member, index) in team"
                     :key="index">
                     <img class="w-64 h-64 mx-auto mt-5 object-cover rounded-xl md:w-40 md:h-40 lg:w-64 lg:h-64"
                         :src="member.imgsrc" alt="woman" width="640" height="805" loading="lazy">
-                    <div>
+                    <div class=" pb-2">
                         <h4 class="text-2xl text-gray-50">{{ member.name }}</h4>
                         <span class="block text-sm text-gray-50">{{ member.title }}</span>
                     </div>

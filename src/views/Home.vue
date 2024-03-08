@@ -6,69 +6,76 @@
     </div>
 
 
-        <kinesis-container>
-            <div class="bg-transparent min-h-screen flex items-center justify-center">
-                <div class="container mx-auto px-4">
-                    <div class="flex flex-col items-center justify-center text-center" v-if="isLargeScreen">
-                        <kinesis-element :strength="10">
-                            <h1 class="text-5xl lg:text-9xl font-extrabold text-transparent bg-gradient-to-r from-green-800 via-blue-800 to-purple-800 bg-clip-text mb-8 "
-                                style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
-                                FEMFLARE 2024</h1>
-                        </kinesis-element>
-                        <div class="flex items-center justify-center mb-8">
-
-                            <div class="flex flex-col items-center">
-                                <kinesis-element :strength="5">
-                                    <Countdown labelColor="black" deadlineISO="2024-03-15 00:00:00"
-                                        mainColor="#FF407D" />
-                                </kinesis-element>
-                            </div>
-                        </div>
-                        <p class="text-lg text-gray-900 mb-8">Join us for the most amazing event of the year!</p>
-                    </div>
-                    <div class="flex flex-col items-center justify-center text-center" v-else>
-
-                        <h1 class="text-5xl font-bold text-pink-500 mb-8 "
+    <kinesis-container>
+        <div class="bg-transparent min-h-screen flex items-center justify-center">
+            <div class="container mx-auto px-4">
+                <div class="flex flex-col items-center justify-center text-center" v-if="isLargeScreen">
+                    <kinesis-element :strength="10">
+                        <h1 class="text-5xl lg:text-9xl font-extrabold text-transparent bg-gradient-to-r from-green-800 via-blue-800 to-purple-800 bg-clip-text mb-8 "
                             style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
                             FEMFLARE 2024</h1>
+                    </kinesis-element>
+                    <div class="flex items-center justify-center mb-8">
 
-
-                        <div class="flex items-center justify-center mb-8">
-
-                            <div class="flex flex-col items-center">
-
-
-                                <Countdown labelColor="#ffffff" deadlineISO="2024-03-15 00:00:00" mainColor="#FF407D" />
-
-                            </div>
+                        <div class="flex flex-col items-center">
+                            <kinesis-element :strength="5">
+                                <Countdown labelColor="black" deadlineISO="2024-03-15 00:00:00" mainColor="#FF407D" />
+                            </kinesis-element>
                         </div>
-                        <p class="text-lg text-gray-900 mb-8">Join us for the most amazing event of the year!</p>
                     </div>
+                    <p class="text-lg text-gray-900 mb-8">Join us for the most amazing event of the year!</p>
+                    <RouterLink to="signup" class="button text-green-900 border-stone-900">
+                        Register Here!
+                    </RouterLink>
                 </div>
-            </div>
-        </kinesis-container>
-        <section class="bg-transparent absolute mx-16" id="about">
-            <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
-                <div class="mr-auto place-self-center lg:col-span-7">
-                    <h1 class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl text-gray-900"
-                        style="font-family: 'Tangerine', serif; color: rgb(246, 51, 165);">Celebration of
-                        Womenhood</h1>
-                    <p class="max-w-2xl mb-6 font-light text-gray-900 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-900">
-                        FemFlare is
-                        an
-                        annual festival dedicated to honoring and empowering women from all walks of life. It is a
-                        vibrant and
-                        inclusive
-                        event that aims to recognize the achievements, talents, and contributions of women in various
-                        fields.</p>
+                <div class="flex flex-col items-center justify-center text-center" v-else>
+
+                    <h1 class="text-5xl font-bold text-pink-500 mb-8 "
+                        style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+                        FEMFLARE 2024</h1>
+
+
+                    <div class="flex items-center justify-center mb-8">
+
+                        <div class="flex flex-col items-center">
+
+
+                            <Countdown labelColor="#ffffff" deadlineISO="2024-03-15 00:00:00" mainColor="#FF407D" />
+
+                        </div>
+                    </div>
+                    <p class="text-lg text-gray-900 mb-8">Join us for the most amazing event of the year!</p>
+
+                    <RouterLink to="signup" class="button text-green-900 border-stone-900">
+                        Register Here!
+                    </RouterLink>
 
                 </div>
-                <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
-                    <img src="../assets/images/logos/flem3.png" alt="mockup">
-                </div>
             </div>
-        </section>
-   
+        </div>
+    </kinesis-container>
+    <section class="bg-transparent absolute mx-16" id="about">
+        <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
+            <div class="mr-auto place-self-center lg:col-span-7">
+                <h1 class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl text-gray-900"
+                    style="font-family: 'Tangerine', serif; color: rgb(246, 51, 165);">Celebration of
+                    Womenhood</h1>
+                <p class="max-w-2xl mb-6 font-light text-gray-900 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-900">
+                    FemFlare is
+                    an
+                    annual festival dedicated to honoring and empowering women from all walks of life. It is a
+                    vibrant and
+                    inclusive
+                    event that aims to recognize the achievements, talents, and contributions of women in various
+                    fields.</p>
+
+            </div>
+            <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
+                <img src="../assets/images/logos/flem3.png" alt="mockup">
+            </div>
+        </div>
+    </section>
+
 </template>
 
 <script setup>
@@ -92,7 +99,66 @@ onUnmounted(() => {
 });
 </script>
 
-<style>
+<style scoped>
+.button {
+    position: relative;
+    width: 140px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    color: black;
+    background-color: #FFACAC;
+    flex-direction: column;
+    justify-content: center;
+    border: none;
+    padding: 12px;
+    gap: 12px;
+    border-radius: 8px;
+    border-color: black;
+    border-width: 10px;
+    cursor: pointer;
+}
+
+.button::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    left: -4px;
+    top: -1px;
+    margin: auto;
+    width: 148px;
+    height: 48px;
+    border-radius: 10px;
+    background: linear-gradient(-45deg, #e81cff 0%, #40c9ff 100%);
+    z-index: -10;
+    pointer-events: none;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.button::after {
+    content: "";
+    z-index: -1;
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(-45deg, #fc00ff 0%, #00dbde 100%);
+    transform: translate3d(0, 0, 0) scale(0.95);
+    filter: blur(20px);
+}
+
+.button:hover::after {
+    filter: blur(30px);
+}
+
+.button:hover::before {
+    transform: rotate(-180deg);
+}
+
+.button:active::before {
+    scale: 0.7;
+}
+
+
+
 @keyframes move {
     100% {
         transform: translate3d(0, 0, 1px) rotate(360deg);
@@ -511,6 +577,7 @@ onUnmounted(() => {
     transform-origin: 0vw -10vh;
     box-shadow: 2vmin 0 0.6442313583377408vmin currentColor;
 }
+
 .background span:nth-child(39) {
     color: #583C87;
     top: 51%;
@@ -520,6 +587,7 @@ onUnmounted(() => {
     transform-origin: 24vw -20vh;
     box-shadow: -2vmin 0 1.184318185193947vmin currentColor;
 }
+
 .background span:nth-child(40) {
     color: #583C87;
     top: 35%;
@@ -529,6 +597,7 @@ onUnmounted(() => {
     transform-origin: 1vw -1vh;
     box-shadow: -2vmin 0 0.5930152709574077vmin currentColor;
 }
+
 .background span:nth-child(41) {
     color: #583C87;
     top: 89%;
@@ -538,6 +607,7 @@ onUnmounted(() => {
     transform-origin: 4vw 12vh;
     box-shadow: -2vmin 0 0.303724066432437vmin currentColor;
 }
+
 .background span:nth-child(42) {
     color: #E45A84;
     top: 25%;
@@ -547,6 +617,7 @@ onUnmounted(() => {
     transform-origin: -18vw -14vh;
     box-shadow: -2vmin 0 1.1555378204915219vmin currentColor;
 }
+
 .background span:nth-child(43) {
     color: #583C87;
     top: 93%;
@@ -556,6 +627,7 @@ onUnmounted(() => {
     transform-origin: -23vw -18vh;
     box-shadow: -2vmin 0 0.4395781953354376vmin currentColor;
 }
+
 .background span:nth-child(44) {
     color: #FFACAC;
     top: 98%;
@@ -565,6 +637,7 @@ onUnmounted(() => {
     transform-origin: 11vw 0vh;
     box-shadow: -2vmin 0 1.0121796182015077vmin currentColor;
 }
+
 .background span:nth-child(45) {
     color: #FFACAC;
     top: 70%;
@@ -574,6 +647,7 @@ onUnmounted(() => {
     transform-origin: 7vw -24vh;
     box-shadow: -2vmin 0 0.5557207860451494vmin currentColor;
 }
+
 .background span:nth-child(46) {
     color: #FFACAC;
     top: 6%;
@@ -583,6 +657,7 @@ onUnmounted(() => {
     transform-origin: 4vw -11vh;
     box-shadow: -2vmin 0 0.8476349487724522vmin currentColor;
 }
+
 .background span:nth-child(47) {
     color: #583C87;
     top: 8%;
@@ -592,6 +667,7 @@ onUnmounted(() => {
     transform-origin: 18vw -19vh;
     box-shadow: 2vmin 0 0.821218888024688vmin currentColor;
 }
+
 .background span:nth-child(48) {
     color: #583C87;
     top: 21%;
@@ -601,6 +677,7 @@ onUnmounted(() => {
     transform-origin: 24vw -12vh;
     box-shadow: -2vmin 0 0.25979825520633604vmin currentColor;
 }
+
 .background span:nth-child(49) {
     color: #E45A84;
     top: 60%;
