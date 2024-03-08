@@ -1,5 +1,5 @@
 <template>
-  <Disclosure as="nav" class="bg-gray-800 fixed w-full z-50" v-slot="{ open }" >
+  <Disclosure as="nav" class="bg-gray-800 fixed w-full z-50" v-slot="{ open }">
     <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
       <div class="relative flex h-16 items-center justify-between">
         <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -59,8 +59,16 @@
                 <a href="#" :class="[active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700']">My
                   Events</a>
                 </MenuItem> -->
+
                 <MenuItem v-slot="{ active }">
-                <a href="#" @click="authStore.logout" :class="[active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700']">Sign out</a>
+
+                <a href="#" :class="[active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700']">Hello {{
+    authStore.user }} !</a>
+                </MenuItem>
+                <MenuItem v-slot="{ active }">
+
+                <a href="#" @click="authStore.logout"
+                  :class="[active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700']">Sign out</a>
                 </MenuItem>
               </MenuItems>
             </transition>
@@ -74,13 +82,13 @@
         <DisclosureButton v-for="item in navigation" :key="item.name" as="a" :href="item.href"
           :class="['text-gray-300 hover:bg-gray-700 hover:text-white', 'rounded-md px-3 py-2 text-sm font-medium']"
           :aria-current="item.current ? 'page' : undefined">{{ item.name }}</DisclosureButton>
-          <template v-if="!authStore.isAuth" class="hidden md:block">
-                <a href="/#/login"
-                  :class="['text-gray-300 hover:bg-gray-700 hover:text-white', 'rounded-md px-3 py-2 text-sm font-medium']">Login</a>
+        <template v-if="!authStore.isAuth" class="hidden md:block">
+          <a href="/#/login"
+            :class="['text-gray-300 hover:bg-gray-700 hover:text-white', 'rounded-md px-3 py-2 text-sm font-medium']">Login</a>
 
-                <a href="/#/signup"
-                  :class="['text-gray-300 hover:bg-gray-700 hover:text-white', 'rounded-md px-3 py-2 text-sm font-medium']">Signup</a>
-              </template>
+          <a href="/#/signup"
+            :class="['text-gray-300 hover:bg-gray-700 hover:text-white', 'rounded-md px-3 py-2 text-sm font-medium']">Signup</a>
+        </template>
       </div>
     </DisclosurePanel>
   </Disclosure>
