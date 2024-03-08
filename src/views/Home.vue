@@ -24,7 +24,7 @@
                         </div>
                     </div>
                     <p class="text-lg text-gray-900 mb-8">Join us for the most amazing event of the year!</p>
-                    <RouterLink to="signup" class="button text-green-900 border-stone-900">
+                    <RouterLink to="signup" class="button text-green-900 border-stone-900" v-if="!authStore.isAuth">
                         Register Here!
                     </RouterLink>
                 </div>
@@ -46,9 +46,10 @@
                     </div>
                     <p class="text-lg text-gray-900 mb-8">Join us for the most amazing event of the year!</p>
 
-                    <RouterLink to="signup" class="button text-green-900 border-stone-900">
+                    <RouterLink to="signup" class="button text-green-900 border-stone-900" v-if="!authStore.isAuth">
                         Register Here!
                     </RouterLink>
+ 
 
                 </div>
             </div>
@@ -83,7 +84,10 @@
 import { ref, onMounted, onUnmounted } from 'vue';
 import { KinesisContainer, KinesisElement } from 'vue-kinesis'
 import { Countdown } from 'vue3-flip-countdown'
+import { useAuthStore } from '../stores/auth.js'
+import { RouterLink } from 'vue-router';
 
+const authStore = useAuthStore()
 const isLargeScreen = ref(window.matchMedia('(min-width: 768px)').matches);
 console.log(isLargeScreen)
 const handleResize = () => {
