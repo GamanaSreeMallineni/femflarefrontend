@@ -115,8 +115,7 @@
 
                 <MenuItem v-slot="{ active }">
 
-                <a href="#" :class="[active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700']">Hello {{
-    authStore.user }} !</a>
+                <a href="/#/profile" :class="[active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700']">Profile</a>
                 </MenuItem>
                 <MenuItem v-slot="{ active }">
 

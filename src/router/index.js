@@ -10,6 +10,8 @@ import patronsadvisorsVue from '@/views/patronsadvisors.vue'
 import chiefpatronsVue from '@/views/chiefpatrons.vue'
 import Convener from '@/views/Convener.vue'
 import CoConvner from '@/views/CoConvner.vue'
+import profile from '@/views/profile.vue'
+import EditProfile from '@/views/EditProfile.vue'
 
 const routes = [
   {
@@ -71,6 +73,18 @@ const routes = [
     name: 'coconveners',
     props: true,
     component: CoConvner
+  },
+  {
+    path: '/profile',
+    name: 'profile',
+    props: true,
+    component: profile
+  },
+  {
+    path: '/profile/edit',
+    name: 'editprofile',
+    props: true,
+    component: EditProfile
   },
   {
     path: '/events',
