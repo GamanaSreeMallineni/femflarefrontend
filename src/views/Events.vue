@@ -83,7 +83,7 @@ import { ref } from 'vue';
 
 const events = ref([]);
 const category = ref('Tech Events');
-const categories = ref(['Tech Events', 'Non Tech Events', 'Sports']);
+const categories = ref(['Tech Events', 'Non Tech Events', 'Spot Events']);
 const isLoading = ref(true);
 
 const toggleAccordion = (index) => {
@@ -108,7 +108,7 @@ const selectCategory = (selectedCat) => {
   else if (category.value == 'Non Tech Events') {
     eventsResponse('nontech');
   }
-  else if (category.value == 'Sports') {
+  else if (category.value == 'Spot Events') {
     eventsResponse('sports');
   }
 }
@@ -119,13 +119,13 @@ const selectCategoryMobile = () => {
     eventsResponse('tech');
   } else if (category.value === 'Non Tech Events') {
     eventsResponse('nontech');
-  } else if (category.value === 'Sports') {
+  } else if (category.value === 'Spot Events') {
     eventsResponse('sports');
   }
 };
 
-function eventsResponse(category) {
-  fetch('https://kl-femflare.fly.dev/api/events/' + category)
+function eventsResponse(caty) {
+  fetch('https://kl-femflare.fly.dev/api/events/' + caty)
     .then(response => {
       isLoading.value = false;
       if (!response.ok) {
