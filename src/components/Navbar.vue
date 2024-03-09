@@ -15,9 +15,9 @@
         <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
 
           <div class="flex flex-shrink-0 items-center">
-            <img class="h-12 w-auto " src="../assets/kl_logo.png" alt="Logo" />
+    
             <img class="h-12 w-auto px-10" src="../assets/logo.png" alt="Logo" />
-            <img class="h-12 w-auto" src="../assets/womens_logo.png" alt="Logo" />
+
           </div>
 
           <div class="hidden sm:ml-6 sm:block mx-auto">
@@ -48,7 +48,7 @@
 
                     <MenuItem v-slot="{ active }">
 
-                    <a href="/#/chiefpatrons" :class="[active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-50 hover:text-gray-900 ']">Chief Patrons</a>
+                    <a href="/#/chiefpatrons" :class="[active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-50 hover:text-gray-900 ']">Chief Patronsn</a>
                     </MenuItem>
                     <MenuItem v-slot="{ active }">
                     <a href="/#/patronsadvisors"
