@@ -48,8 +48,7 @@
 
                     <MenuItem v-slot="{ active }">
 
-                    <a href="/#/chiefpatrons" :class="[active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-50 hover:text-gray-900 ']">Chief Patrons {{
-    authStore.user }} !</a>
+                    <a href="/#/chiefpatrons" :class="[active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-50 hover:text-gray-900 ']">Chief Patrons</a>
                     </MenuItem>
                     <MenuItem v-slot="{ active }">
                     <a href="/#/patronsadvisors"
