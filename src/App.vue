@@ -13,4 +13,8 @@ const authStore = useAuthStore()
 
     <RouterView />
 
+    <div class="h-full w-screen bg-gray-50">
+      <img src="./assets/KLRanks.png" alt="image" class="w-full h-30" />
+    </div>
+
 </template>

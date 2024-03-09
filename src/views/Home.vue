@@ -49,12 +49,13 @@
                     <RouterLink to="signup" class="button text-green-900 border-stone-900" v-if="!authStore.isAuth">
                         Register Here!
                     </RouterLink>
- 
+
 
                 </div>
             </div>
         </div>
     </kinesis-container>
+ 
     <section class="bg-transparent absolute mx-16" id="about">
         <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
             <div class="mr-auto place-self-center lg:col-span-7">
@@ -69,11 +70,41 @@
                     inclusive
                     event that aims to recognize the achievements, talents, and contributions of women in various
                     fields.</p>
-
             </div>
             <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
                 <img src="../assets/images/logos/flem3.png" alt="mockup">
             </div>
+        </div>
+
+        <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
+            <div class="mr-auto place-self-center lg:col-span-7">
+
+                <p class="max-w-2xl mb-6 font-light text-gray-900 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-900">
+                    K L University shines in the prestigious NIRF 2023 Rankings, securing impressive positions across
+                    multiple categories. Ranked #28 in Universities, #44 in Engineering, #52 in Management, and #50
+                    Overall, this accomplishment highlights our dedication to academic excellence and holistic
+                    development</p>
+            </div>
+
+        </div>
+        <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
+            <div class="mr-auto place-self-center lg:col-span-7">
+
+                
+            </div>
+            <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
+            
+                <p class="max-w-2xl mb-6 font-light text-gray-900 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-900">
+                    The Women Development Cell (WDC) at KLEF promotes gender equality through education, advocacy, and
+                    skill-building initiatives. Our mission includes creating a safe environment for women to thrive,
+                    offering awareness programs on women's rights, and conducting gender sensitization activities on
+                    campus. We strive to address gender discrimination, prevent sexual harassment, and ensure equitable
+                    opportunities for all genders within the university community.</p>
+            </div>
+
+        </div>
+        <div class="h-full w-full bg-transparent">
+            <img src="../assets/KLRanks.png" alt="image" class="w-full h-30" />
         </div>
     </section>
 

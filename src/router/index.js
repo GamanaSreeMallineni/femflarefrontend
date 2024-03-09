@@ -6,6 +6,8 @@ import Gallery from '../views/Gallery.vue'
 import AboutVue from '@/views/About.vue'
 import signupVue from '@/views/signup.vue'
 import loginVue from '@/views/login.vue'
+import patronsadvisorsVue from '@/views/patronsadvisors.vue'
+import chiefpatronsVue from '@/views/chiefpatrons.vue'
 
 const routes = [
   {
@@ -43,6 +45,18 @@ const routes = [
     name: 'signup',
     props: true,
     component: signupVue
+  },
+  {
+    path: '/patronsadvisors',
+    name: 'patronsadvisors',
+    props: true,
+    component: patronsadvisorsVue
+  },
+  {
+    path: '/chiefpatrons',
+    name: 'chiefpatrons',
+    props: true,
+    component: chiefpatronsVue
   },
   {
     path: '/events',
