@@ -83,7 +83,7 @@ import { ref } from 'vue';
 
 const events = ref([]);
 const category = ref('Tech Events');
-const categories = ref(['Tech Events', 'Non Tech Events', 'Spot Events']);
+const categories = ref(['Tech Events', 'Non Tech Events', 'Spot Events', 'Litrary Events']);
 const isLoading = ref(true);
 
 const toggleAccordion = (index) => {
@@ -111,6 +111,9 @@ const selectCategory = (selectedCat) => {
   else if (category.value == 'Spot Events') {
     eventsResponse('sports');
   }
+  else if (category.value == 'Litrary Events') {
+    eventsResponse('litrary');
+  }
 }
 
 const selectCategoryMobile = () => {
@@ -121,6 +124,9 @@ const selectCategoryMobile = () => {
     eventsResponse('nontech');
   } else if (category.value === 'Spot Events') {
     eventsResponse('sports');
+  }
+  else if (category.value == 'Litrary Events') {
+    eventsResponse('litrary');
   }
 };
 

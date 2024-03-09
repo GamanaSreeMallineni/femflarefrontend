@@ -8,6 +8,8 @@ import signupVue from '@/views/signup.vue'
 import loginVue from '@/views/login.vue'
 import patronsadvisorsVue from '@/views/patronsadvisors.vue'
 import chiefpatronsVue from '@/views/chiefpatrons.vue'
+import Convener from '@/views/Convener.vue'
+import CoConvner from '@/views/CoConvner.vue'
 
 const routes = [
   {
@@ -57,6 +59,18 @@ const routes = [
     name: 'chiefpatrons',
     props: true,
     component: chiefpatronsVue
+  },
+  {
+    path: '/conveners',
+    name: 'conveners',
+    props: true,
+    component: Convener
+  },
+  {
+    path: '/coconveners',
+    name: 'coconveners',
+    props: true,
+    component: CoConvner
   },
   {
     path: '/events',

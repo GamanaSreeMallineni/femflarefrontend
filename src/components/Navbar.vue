@@ -1,6 +1,6 @@
 <template>
-  <Disclosure as="nav" class="bg-gray-900 fixed w-full z-50" v-slot="{ open }">
-    <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+  <Disclosure as="nav" class="bg-gray-900 fixed w-screen z-50" v-slot="{ open }">
+    <div class="mx-auto px-2 sm:px-6 lg:px-8">
       <div class="relative flex h-16 items-center justify-between">
         <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
           <!-- Mobile menu button-->
@@ -57,7 +57,7 @@
                     </MenuItem>
 
                     <MenuItem v-slot="{ active }">
-                    <a href="#"
+                    <a href="/#/team"
                       :class="[active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-50 hover:text-gray-900 ']">Chief Co-ordinators</a>
                     </MenuItem>
 
@@ -67,12 +67,12 @@
                     </MenuItem>
 
                     <MenuItem v-slot="{ active }">
-                    <a href="#"
+                    <a href="/#/conveners"
                       :class="[active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-50 hover:text-gray-900 ']">Convener</a>
                     </MenuItem>
 
                     <MenuItem v-slot="{ active }">
-                    <a href="#"
+                    <a href="/#/coconveners"
                       :class="[active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-50 hover:text-gray-900 ']">Co-Convener</a>
                     </MenuItem>
                   </MenuItems>
