@@ -98,7 +98,7 @@
 
 <template>
 
-    <section class="bg-gradient-to-r from-blue-200 to-pink-300 max-w-screen-xl mx-auto py-24 px-4 md:px-8 lg:px-16">
+    <section class="bg-gradient-to-r from-blue-200 to-pink-300 w-screen mx-auto py-24 px-4 md:px-8 lg:px-16">
         <h2 class="text-center text-3xl md:text-4xl lg:text-5xl font-bold mb-8">Patrons & Advisors </h2>
 
         <div class="container mx-auto">
@@ -114,7 +114,7 @@
 
                         </div>
                         <div class="text-center mt-3">
-                            <h2 class="text-dark dark:text-white text-base font-semibold">Dr. A.V.S. Prasad
+                            <h2 class="text-dark dark:text-gray-900 text-base font-semibold">Dr. A.V.S. Prasad
 
 
 
@@ -131,7 +131,7 @@
 
                         </div>
                         <div class="text-center mt-3">
-                            <h3 class="text-dark dark:text-white text-base font-semibold">Dr. N. Venkatram
+                            <h3 class="text-dark dark:text-gray-900 text-base font-semibold">Dr. N. Venkatram
 
 
 
@@ -149,7 +149,7 @@
 
                         </div>
                         <div class="text-center mt-3">
-                            <h2 class="text-dark dark:text-white text-base font-semibold">Dr. K. Subba Rao
+                            <h2 class="text-dark dark:text-gray-900 text-base font-semibold">Dr. K. Subba Rao
 
 
 
@@ -166,7 +166,7 @@
 
                         </div>
                         <div class="text-center mt-3">
-                            <h3 class="text-dark dark:text-white text-base font-semibold">Dr. A. Jagadeesh,
+                            <h3 class="text-dark dark:text-gray-900 text-base font-semibold">Dr. A. Jagadeesh,
 
 
 

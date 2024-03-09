@@ -100,7 +100,7 @@
 
 
     <!-- ====== Team Section Start -->
-    <section class="bg-gradient-to-r from-blue-200 to-pink-300 max-w-screen-xl mx-auto py-16 px-4 md:px-8 lg:px-16">
+    <section class="bg-gradient-to-r from-blue-200 to-pink-300 w-screen mx-auto py-20 px-4 md:px-8 lg:px-16">
         <h2 class="text-center text-3xl md:text-4xl lg:text-5xl font-bold mb-8">Cheif Patrons</h2>
 
         <div class="container mx-auto">
@@ -116,7 +116,7 @@
 
                         </div>
                         <div class="text-center mt-3">
-                            <h2 class="text-dark dark:text-white text-base font-semibold">Sri. Koneru Satyanarayana
+                            <h2 class="text-dark dark:text-gray-900 text-base font-semibold">Sri. Koneru Satyanarayana
 
                             </h2>
                             <p class="text-body-color dark:text-dark-6 text-xs"> Hon’ble President, KLEF </p>
@@ -131,7 +131,7 @@
 
                         </div>
                         <div class="text-center mt-3">
-                            <h3 class="text-dark dark:text-white text-base font-semibold">Smt. K. Kanchana Latha
+                            <h3 class="text-dark dark:text-gray-900 text-base font-semibold">Smt. K. Kanchana Latha
 
                             </h3>
                             <p class="text-body-color dark:text-dark-6 text-xs">Secretary, KLEF </p>
@@ -145,7 +145,7 @@
 
                         </div>
                         <div class="text-center mt-3">
-                            <h3 class="text-dark dark:text-white text-base font-semibold">Er.Koneru Lakshman Havish
+                            <h3 class="text-dark dark:text-gray-900 text-base font-semibold">Er.Koneru Lakshman Havish
 
                             </h3>
                             <p class="text-body-color dark:text-dark-6 text-xs">Vice-President, KLEF </p>
@@ -161,7 +161,7 @@
 
                         </div>
                         <div class="text-center mt-3">
-                            <h2 class="text-dark dark:text-white text-base font-semibold">Er. Koneru. Raja Hareen
+                            <h2 class="text-dark dark:text-gray-900 text-base font-semibold">Er. Koneru. Raja Hareen
 
                             </h2>
                             <p class="text-body-color dark:text-dark-6 text-xs"> Vice-President, KLEF </p>
@@ -176,7 +176,7 @@
 
                         </div>
                         <div class="text-center mt-3">
-                            <h3 class="text-dark dark:text-white text-base font-semibold">Dr K. S. Jagannatha Rao
+                            <h3 class="text-dark dark:text-gray-900 text-base font-semibold">Dr K. S. Jagannatha Rao
 
 
 
@@ -192,7 +192,7 @@
 
                         </div>
                         <div class="text-center mt-3">
-                            <h3 class="text-dark dark:text-white text-base font-semibold">Dr.G. Pardha Saradhi Varma
+                            <h3 class="text-dark dark:text-gray-900 text-base font-semibold">Dr.G. Pardha Saradhi Varma
 
 
 
