@@ -65,7 +65,7 @@ const handleSubmit = async () => {
 </script>
 <template>
     <section class="min-h-screen h-full bg-gray-900 flex items-center justify-center py-20">
-        <div class="w-full h-full max-w-sm mx-auto overflow-scroll bg-gray-800 rounded-lg shadow-md">
+        <div class="w-full h-full max-w-sm mx-auto overflow-hidden bg-gray-800 rounded-lg shadow-md">
             <div class="px-6 my-10">
                 <div class="flex justify-center mx-auto">
                     <img class="w-auto h-24" src="../assets/logo.png" alt="">
