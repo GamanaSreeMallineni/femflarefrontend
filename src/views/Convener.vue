@@ -52,7 +52,7 @@
                 <div class="w-full px-4 md:w-1/2 xl:w-1/4">
                     <div class="mx-auto mb-10 w-full max-w-[370px]">
                         <div class="relative overflow-hidden rounded-lg">
-                            <img src="../assets/converners/dr_k_sony.jfif" alt="image" class="w-full" />
+                            <img src="../assets/converners/dr_k_sony.jpg" alt="image" class="w-full" />
 
                         </div>
                         <div class="text-center mt-3">
