@@ -7,6 +7,7 @@ const username = ref("");
 const department = ref("Select Department");
 const idno = ref("");
 const phno = ref("");
+const collage = ref("");
 const password = ref("");
 const password2 = ref("");
 const message = ref("");
@@ -26,6 +27,7 @@ const handleSubmit = async () => {
             username: username.value.trim(),
             idno: idno.value,
             phno: phno.value,
+            collage: collage.value,
             dept: department.value.trim(),
             password: password.value,
         });
@@ -79,11 +81,16 @@ const handleSubmit = async () => {
                             class="block w-full px-4 py-2 mt-2 text-gray-50 placeholder-gray-400 bg-gray-800 border rounded-lg focus:border-blue-400 focus:ring-opacity-40 focus:outline-none focus:ring focus:ring-blue-300"
                             type="text" placeholder="Username" aria-label="username" name="username" required />
                     </div>
-
+                    <div>
+                        <input type="text" id="collage" v-model="collage" placeholder="Enter your Collage Name"
+                            autocomplete="off" required
+                            class="block w-full px-4 py-2 mt-4 text-gray-50 placeholder-gray-400 bg-gray-800 border rounded-lg focus:border-blue-400 focus:ring-opacity-40 focus:outline-none focus:ring focus:ring-blue-300" />
+                    </div>
                     <div class="w-full mt-4">
-                        
-                        <select id="department" name="department" v-model="department"   class="block w-full rounded-lg border border-gray-300 bg-gray-900 p-2.5 text-gray-50 focus:border-blue-500 focus:ring-blue-500 sm:text-sm"
- required>
+
+                        <select id="department" name="department" v-model="department"
+                            class="block w-full rounded-lg border border-gray-300 bg-gray-900 p-2.5 text-gray-50 focus:border-blue-500 focus:ring-blue-500 sm:text-sm"
+                            required>
                             <option value="Select Department" selected hidden>Select Department</option>
                             <option value="FED">FED</option>
                             <option value="CSE(HONORS)">CSE(HONORS)</option>

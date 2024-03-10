@@ -31,6 +31,12 @@
                         class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-sky-500 focus:border-sky-500 sm:text-sm" />
                 </div>
                 <div>
+                    <label class="font-semibold" for="collage">Collage:</label>
+                    <input type="text" id="collage" v-model="collage" placeholder="Enter your Collage name" autocomplete="off"
+                        required
+                        class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-sky-500 focus:border-sky-500 sm:text-sm" />
+                </div>
+                <div>
                     <label class="font-semibold" for="department">Department:</label>
                     <select id="department" name="department" v-model="department"
                         class="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-gray-900 focus:border-blue-500 focus:ring-blue-500 sm:text-sm"
@@ -101,6 +107,7 @@ const authStore = useAuthStore();
 const isSubmited = ref(false);
 const isLoading = ref(true);
 const department = ref("");
+const collage = ref("");
 const idno = ref("");
 const phno = ref("");
 const message = ref("");
@@ -118,6 +125,7 @@ async function getProfileData() {
         idno.value = response.data.idno
         phno.value = response.data.phno
         department.value = response.data.dept
+        collage.value = response.data.collage
     } catch (error) {
         console.error('Error fetching data:', error.error);
     }

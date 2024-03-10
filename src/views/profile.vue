@@ -17,6 +17,8 @@
                 <dd class="text-gray-500">{{ authStore.user }}</dd>
                 <dt class="font-semibold">Phone Number:</dt>
                 <dd class="text-gray-500">{{ phno }}</dd>
+                <dt class="font-semibold">Collage:</dt>
+                <dd class="text-gray-500">{{ collage }}</dd>
                 <dt class="font-semibold">Department:</dt>
                 <dd class="text-gray-500">{{ department }}</dd>
             </dl>
@@ -44,6 +46,7 @@ const isLoading = ref(true);
 const department = ref("");
 const idno = ref("");
 const phno = ref("");
+const collage = ref("");
 const message = ref("");
 const messageColor = ref("");
 
@@ -59,6 +62,7 @@ async function getProfileData() {
         idno.value = response.data.idno
         phno.value = response.data.phno
         department.value = response.data.dept
+        collage.value = response.data.collage
     } catch (error) {
         console.error('Error fetching data:', error.error);
     }
