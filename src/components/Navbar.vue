@@ -59,21 +59,12 @@
                     <a href="/#/team"
                       :class="[active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-50 hover:text-gray-900 ']">Chief Co-ordinators</a>
                     </MenuItem>
-
-                    <MenuItem v-slot="{ active }">
-                    <a href="#"
-                      :class="[active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-50 hover:text-gray-900 ']">Chairperson</a>
-                    </MenuItem>
-
                     <MenuItem v-slot="{ active }">
                     <a href="/#/conveners"
-                      :class="[active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-50 hover:text-gray-900 ']">Convener</a>
+                      :class="[active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-50 hover:text-gray-900 ']">Conveners</a>
                     </MenuItem>
 
-                    <MenuItem v-slot="{ active }">
-                    <a href="/#/coconveners"
-                      :class="[active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-50 hover:text-gray-900 ']">Co-Convener</a>
-                    </MenuItem>
+               
                   </MenuItems>
                 </transition>
               </Menu>
@@ -137,6 +128,7 @@
 
           <a href="/#/signup"
             :class="['text-gray-300 hover:bg-gray-700 hover:text-white', 'rounded-md px-3 py-2 text-sm font-medium']">Register</a>
+            
         </template>
       </div>
     </DisclosurePanel>
