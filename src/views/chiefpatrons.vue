@@ -1,6 +1,6 @@
 <style scoped>
 .hero {
-    background-image: url('../assets/images2/banner.png');
+    background-image: url("../assets/images2/banner.png");
     background-size: cover;
     background-position: center;
     height: 85vh;
@@ -50,10 +50,8 @@
 
 .fest-title {
     font-family: 'Roboto', sans-serif;
-    /* Applying Roboto font from Google Fonts API */
 }
 
-/* Preloader Styles */
 .preloader {
     position: fixed;
     top: 0;
@@ -61,21 +59,17 @@
     width: 100%;
     height: 100%;
     background-color: #fff;
-    /* Change background color as needed */
     display: flex;
     justify-content: center;
     align-items: center;
     z-index: 9999;
-    /* Ensure it's on top of other content */
 }
 
 .spinner {
     width: 40px;
     height: 40px;
     border: 4px solid #f3f3f3;
-    /* Light grey */
     border-top: 4px solid #3498db;
-    /* Blue */
     border-radius: 50%;
     animation: spin 1s linear infinite;
 }
@@ -90,9 +84,23 @@
     }
 }
 
-/* Hide content while preloader is visible */
 .content {
     display: none;
+}
+
+/* New Style Rules */
+.img-wrapper {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    margin-bottom: 1rem;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.img-wrapper img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
 }
 </style>
 
