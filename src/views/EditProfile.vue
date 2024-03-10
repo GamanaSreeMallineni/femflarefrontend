@@ -14,7 +14,7 @@
             <form class="space-y-4 w-full max-w-md mx-auto" @submit.prevent="handleSubmit">
                 <div>
                     <label class="font-semibold" for="idno">ID Number:</label>
-                    <input type="number" id="idno"  min="1900000000" max="2300000000" v-model="idno" placeholder="Enter ID number" autocomplete="off"
+                    <input type="text" id="idno" v-model="idno" placeholder="Enter ID number" autocomplete="off"
                         required
                         class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-sky-500 focus:border-sky-500 sm:text-sm" />
                 </div>
