@@ -142,7 +142,7 @@
                             <h3 class="text-dark dark:text-gray-900 text-base font-semibold">Smt. K. Kanchana Latha
 
                             </h3>
-                            <p class="text-body-color dark:text-dark-6 text-xs">Secretary, KLEF </p>
+                            <p class="text-body-color dark:text-dark-6 text-xs">Hon’ble Secretary, KLEF </p>
                         </div>
                     </div>
                 </div>
@@ -156,7 +156,7 @@
                             <h3 class="text-dark dark:text-gray-900 text-base font-semibold">Er.Koneru Lakshman Havish
 
                             </h3>
-                            <p class="text-body-color dark:text-dark-6 text-xs">Vice-President, KLEF </p>
+                            <p class="text-body-color dark:text-dark-6 text-xs">Hon’ble Vice-President, KLEF </p>
                         </div>
                     </div>
                 </div>
@@ -172,7 +172,7 @@
                             <h2 class="text-dark dark:text-gray-900 text-base font-semibold">Er. Koneru. Raja Hareen
 
                             </h2>
-                            <p class="text-body-color dark:text-dark-6 text-xs"> Vice-President, KLEF </p>
+                            <p class="text-body-color dark:text-dark-6 text-xs">Hon’ble Vice-President, KLEF </p>
                         </div>
 
                     </div>
@@ -189,7 +189,7 @@
 
 
                             </h3>
-                            <p class="text-body-color dark:text-dark-6 text-xs">Pro Chancellor, KLEF</p>
+                            <p class="text-body-color dark:text-dark-6 text-xs">Hon’ble Pro Chancellor, KLEF</p>
                         </div>
                     </div>
                 </div>
@@ -205,7 +205,7 @@
 
 
                             </h3>
-                            <p class="text-body-color dark:text-dark-6 text-xs">Vice Chancellor, KLEF </p>
+                            <p class="text-body-color dark:text-dark-6 text-xs">Hon’ble Vice Chancellor, KLEF </p>
                         </div>
                     </div>
                 </div>
