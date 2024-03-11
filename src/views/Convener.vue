@@ -57,7 +57,7 @@
                         </div>
                         <div class="text-center mt-3">
                             <h3 class="text-dark  text-base font-semibold">Dr .K. Sony </h3>
-                            <p class="text-body-color dark:text-dark-6 text-xs">-Asst Director, Alumni -Relations
+                            <p class="text-body-color dark:text-dark-6 text-xs">Asst Director, Alumni Relations
                                 ,Co-Convener Women's Forum, KLEF </p>
                         </div>
 
@@ -137,9 +137,9 @@
                                 <img src="../assets/converners/sailaja.jpeg" alt="image" class="w-full" />
                             </div>
                             <div class="text-center mt-3">
-                                <h3 class="text-dark  text-base font-semibold">Dr. P .Sailaja –Assoc Prof
+                                <h3 class="text-dark  text-base font-semibold">Dr. P .Sailaja 
                                 </h3>
-                                <p class="text-body-color dark:text-dark-6 text-xs">LAW, KLEF</p>
+                                <p class="text-body-color dark:text-dark-6 text-xs">Assoc Prof LAW, KLEF</p>
                             </div>
                         </div>
                     </div>
@@ -151,7 +151,7 @@
                             </div>
                             <div class="text-center mt-3">
                                 <h3 class="text-dark  text-base font-semibold">Mrs . N. Srilakshmi</h3>
-                                <p class="text-body-color dark:text-dark-6 text-xs">–Co-Convener WDC ,Asst
+                                <p class="text-body-color dark:text-dark-6 text-xs">Co-Convener WDC ,Asst
                                     Prof-Pharmacy, KLEF </p>
                             </div>
                         </div>
@@ -163,8 +163,8 @@
                                 <img src="../assets/converners/Dr.Mulabagula-Geeta.jpg" alt="image" class="w-full" />
                             </div>
                             <div class="text-center mt-3">
-                                <h3 class="text-dark  text-base font-semibold"> Dr Geeta –Assoc Prof</h3>
-                                <p class="text-body-color dark:text-dark-6 text-xs">MBA-KLH</p>
+                                <h3 class="text-dark  text-base font-semibold"> Dr Geeta </h3>
+                                <p class="text-body-color dark:text-dark-6 text-xs">Assoc Prof MBA-KLH</p>
                             </div>
                         </div>
                     </div>
