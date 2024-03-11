@@ -4,7 +4,7 @@
             <img class="h-8 w-auto mr-auto lg:h-16" src="../assets/klh.png" alt="Logo" />
             <img class="h-8 w-auto  lg:h-16" src="../assets/kl_logo.png" alt="Logo" />
             <img class="h-14 w-auto ml-auto mx-4 lg:h-20" src="../assets/womens_logo.png" alt="Logo" />
-          </div>
+        </div>
     </div>
     <div class="background  " style="z-index: 0;">
         <span v-for="i in 100">
@@ -69,14 +69,16 @@
                 <h1 class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl text-gray-50"
                     style="font-family: 'Tangerine', serif; color: rgb(246, 51, 165);">Celebration of
                     Womenhood</h1>
-                <p class="max-w-2xl mb-6 font-light text-gray-50 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-50 text-justify">
-                    FemFlare is
-                    an
-                    annual festival dedicated to honoring and empowering women from all walks of life. It is a
-                    vibrant and
-                    inclusive
-                    event that aims to recognize the achievements, talents, and contributions of women in various
-                    fields.</p>
+                <p
+                    class="max-w-2xl mb-6 font-light text-gray-50 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-50 text-justify">
+                    FemFlare is more than a festival it's a vibrant celebration of womanhood! We gather diverse women
+                    from across the globe to showcase their talents, share experiences, and ignite connections.
+
+                    This two-day extravaganza empowers women through workshops, talks, and exhibitions, fostering
+                    leadership skills. Be inspired by success stories of women overcoming challenges and achieving their
+                    dreams. Network with fellow participants and learn from experts in business, technology, arts, and
+                    social justice and win 1 lakh Prize money. Join us as we celebrate women's achievements and pave the way for a more equitable
+                    future – together!</p>
             </div>
             <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
                 <img src="../assets/images/logos/flem3.png" alt="mockup" class="animate-pulse">
@@ -86,12 +88,14 @@
         <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
             <div class="mx-auto place-self-center  lg:col-span-5">
 
-                <img src="../assets/nacp.png" alt="image" class="w-64 h-64 md:h-80 md:w-80 animate-pulse rounded-full" />
+                <img src="../assets/nacp.png" alt="image"
+                    class="w-64 h-64 md:h-80 md:w-80 animate-pulse rounded-full" />
 
             </div>
             <div class="mr-auto place-self-center lg:col-span-7">
 
-                <p class="max-w-2xl mb-6 font-light text-gray-50 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-50 text-justify">
+                <p
+                    class="max-w-2xl mb-6 font-light text-gray-50 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-50 text-justify">
                     K L University shines in the prestigious NIRF 2023 Rankings, securing impressive positions across
                     multiple categories. Ranked #28 in Universities, #44 in Engineering, #52 in Management, and #50
                     Overall, this accomplishment highlights our dedication to academic excellence and holistic
@@ -102,7 +106,8 @@
         <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
             <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
 
-                <p class="max-w-2xl mb-6 font-light text-gray-50 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-50 text-justify">
+                <p
+                    class="max-w-2xl mb-6 font-light text-gray-50 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-50 text-justify">
                     The Women Development Cell (WDC) at KLEF promotes gender equality through education, advocacy, and
                     skill-building initiatives. Our mission includes creating a safe environment for women to thrive,
                     offering awareness programs on women's rights, and conducting gender sensitization activities on

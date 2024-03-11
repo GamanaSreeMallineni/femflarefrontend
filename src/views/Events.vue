@@ -83,7 +83,7 @@ import { ref } from 'vue';
 
 const events = ref([]);
 const category = ref('Tech Events');
-const categories = ref(['Tech Events', 'Non Tech Events', 'Spot Events', 'Litrary Events']);
+const categories = ref(['Tech Events', 'Spot Events', 'Litrary Events']);
 const isLoading = ref(true);
 
 const toggleAccordion = (index) => {

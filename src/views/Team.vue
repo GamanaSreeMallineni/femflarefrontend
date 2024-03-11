@@ -35,7 +35,7 @@ import { KinesisContainer, KinesisElement } from 'vue-kinesis'
 const team = ref([
     { name: 'Gayathri Thotakura', title: 'Chief Executive', imgsrc: gayathri },
     { name: 'NagaMani Thota', title: 'Chief Executive', imgsrc: nagamani },
-    { name: 'SaiSree', title: 'Chief Executive', imgsrc: saisree },
+    { name: 'T Sai Sree', title: 'Chief Executive', imgsrc: saisree },
     { name: 'JayaHarshitha', title: 'Chief Executive', imgsrc: jayaharshitha },
     { name: 'Varshitha', title: 'Chief Student Coordinator', imgsrc: varshitha },
     { name: 'Sri vallika', title: 'Secretary', imgsrc: vallika },
