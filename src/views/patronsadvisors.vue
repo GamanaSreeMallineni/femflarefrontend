@@ -119,7 +119,7 @@
 
 
                             </h2>
-                            <p class="text-body-color dark:text-dark-6 text-xs">Pro Vice-Chancellor, KLEF </p>
+                            <p class="text-body-color dark:text-dark-6 text-xs">Hon’ble Pro Vice-Chancellor, KLEF </p>
                         </div>
 
                     </div>
@@ -136,7 +136,7 @@
 
 
                             </h3>
-                            <p class="text-body-color dark:text-dark-6 text-xs"> Pro Vice-Chancellor, KLEF </p>
+                            <p class="text-body-color dark:text-dark-6 text-xs">Hon’ble Pro Vice-Chancellor, KLEF </p>
                         </div>
                     </div>
                 </div>
@@ -154,7 +154,7 @@
 
 
                             </h2>
-                            <p class="text-body-color dark:text-dark-6 text-xs">Registrar, KLEF </p>
+                            <p class="text-body-color dark:text-dark-6 text-xs">Hon’ble Registrar, KLEF </p>
                         </div>
 
                     </div>
@@ -173,7 +173,7 @@
 
 
                             </h3>
-                            <p class="text-body-color dark:text-dark-6 text-xs">CCO & Director–FED,KLEF</p>
+                            <p class="text-body-color dark:text-dark-6 text-xs">Hon’ble CCO & Director–FED,KLEF</p>
                         </div>
                     </div>
                 </div>
