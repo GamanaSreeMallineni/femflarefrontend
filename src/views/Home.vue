@@ -88,8 +88,7 @@
         <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
             <div class="mx-auto place-self-center  lg:col-span-5">
 
-                <img src="../assets/kl_logo.png" alt="image"
-                    class="w-64 h-64 md:h-80 md:w-80 animate-pulse rounded-full" />
+                <img src="../assets/kl_logo.png" alt="image"/>
 
             </div>
             <div class="mr-auto place-self-center lg:col-span-7">
