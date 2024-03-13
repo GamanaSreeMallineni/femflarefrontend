@@ -27,7 +27,7 @@ window.addEventListener('load', () => {
   <RouterView />
 
   <div class="h-full w-screen bg-gray-50">
-    <img src="./assets/KLRanks.png" alt="image" class="w-screen h-30" />
+    <img src="./assets/KL_Ranks.png" alt="image" class="w-screen h-30" />
   </div>
 
 </template>

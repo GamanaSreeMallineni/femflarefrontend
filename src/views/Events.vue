@@ -130,22 +130,22 @@ const selectCategoryMobile = () => {
   }
 };
 
-function eventsResponse(caty) {
-  fetch('https://kl-femflare.fly.dev/api/events/' + caty)
-    .then(response => {
-      isLoading.value = false;
-      if (!response.ok) {
-        throw new Error('Network response was not ok');
-      }
-      return response.json();
-    })
-    .then(data => {
-      events.value = data
-    })
-    .catch(error => {
-      console.error('Error fetching data:', error);
-    });
-}
+  function eventsResponse(caty) {
+    fetch('https://kl-femflare.fly.dev/api/events/' + caty)
+      .then(response => {
+        isLoading.value = false;
+        if (!response.ok) {
+          throw new Error('Network response was not ok');
+        }
+        return response.json();
+      })
+      .then(data => {
+        events.value = data
+      })
+      .catch(error => {
+        console.error('Error fetching data:', error);
+      });
+  }
 
 eventsResponse('tech');
 
