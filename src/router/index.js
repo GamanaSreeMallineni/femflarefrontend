@@ -1,4 +1,4 @@
-import { createRouter , createWebHashHistory } from 'vue-router'
+import { createRouter, createWebHashHistory } from 'vue-router'
 import Home from '../views/Home.vue'
 import EventsVue from '../views/Events.vue'
 import Team from '../views/Team.vue'
@@ -12,31 +12,38 @@ import Convener from '@/views/Convener.vue'
 import CoConvner from '@/views/CoConvner.vue'
 import profile from '@/views/profile.vue'
 import EditProfile from '@/views/EditProfile.vue'
+import ourvisionaryVue from '@/views/ourvisionary.vue'
 
 const routes = [
   {
-      path: '/',
-      name: 'Home',
-      component: Home,
-      props: true,
+    path: '/',
+    name: 'Home',
+    component: Home,
+    props: true,
   },
   {
-      path: '/about',
-      name: 'about',
-      props: true,
-      component: AboutVue
+    path: '/ourvisionary',
+    name: 'ourvisionary',
+    component: ourvisionaryVue,
+    props: true,
   },
   {
-      path: '/team',
-      name: 'team',
-      props: true,
-      component: Team
+    path: '/about',
+    name: 'about',
+    props: true,
+    component: AboutVue
   },
   {
-      path: '/gallery',
-      name: 'gallery',
-      props: true,
-      component: Gallery
+    path: '/team',
+    name: 'team',
+    props: true,
+    component: Team
+  },
+  {
+    path: '/gallery',
+    name: 'gallery',
+    props: true,
+    component: Gallery
   },
   {
     path: '/login',
@@ -91,9 +98,9 @@ const routes = [
     name: 'events',
     props: true,
     component: EventsVue
-},
+  },
 
-  
+
 ]
 
 const router = createRouter({

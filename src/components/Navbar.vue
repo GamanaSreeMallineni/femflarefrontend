@@ -199,6 +199,7 @@ console.log(authStore.isAuth)
 
 const navigation = [
   { name: 'Home', href: '/', current: false },
+  { name: 'Our Visionary', href: '/#/ourvisionary', current: false },
   { name: 'Events', href: '/#/events', current: false },
   { name: 'Gallery', href: '/#/gallery', current: false },
 ]
