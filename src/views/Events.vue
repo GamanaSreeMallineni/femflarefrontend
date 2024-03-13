@@ -114,6 +114,10 @@ const selectCategory = (selectedCat) => {
   else if (category.value == 'Litrary Events') {
     eventsResponse('litrary');
   }
+  else{
+    isLoading.value = false;
+    events.value = []
+  }
 }
 
 const selectCategoryMobile = () => {
@@ -127,6 +131,10 @@ const selectCategoryMobile = () => {
   }
   else if (category.value == 'Litrary Events') {
     eventsResponse('litrary');
+  }
+  else{
+    isLoading.value = false;
+    events.value = []
   }
 };
 
