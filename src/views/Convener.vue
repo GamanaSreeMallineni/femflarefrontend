@@ -31,7 +31,7 @@
    
             <h2 class="text-3xl md:text-4xl font-bold mb-4 text-center"
                 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: #ee074d;">
-                Converners</h2>
+                Conveners</h2>
 
             <div class="-mx-4 flex flex-wrap justify-center">
                 <div class="w-full px-4 md:w-1/2 xl:w-1/4">
