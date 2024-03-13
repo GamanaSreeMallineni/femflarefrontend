@@ -9,10 +9,7 @@
       </tr>
     </thead>
     <tbody class="bg-white divide-y divide-gray-200">
-      <tr>
-        <td class="px-4 py-2 border">Assoc Prof</td>
-        <td class="px-4 py-2 border">Dr. K. Hemamalini</td>
-      </tr>
+    
       <tr>
         <td class="px-4 py-2 border">Assoc Prof</td>
         <td class="px-4 py-2 border">Dr. P. Sailaja</td>
