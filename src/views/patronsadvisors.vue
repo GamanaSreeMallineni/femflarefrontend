@@ -110,16 +110,16 @@
                 <div class="w-full px-4 md:w-1/2 xl:w-1/4">
                     <div class="mx-auto mb-10 w-full max-w-[370px]">
                         <div class="relative overflow-hidden rounded-lg">
-                            <img src="../assets/images2/avs prasad.jpg" alt="image" class="w-full" />
+                            <img src="../assets/images2/venkataram.jpg" alt="image" class="w-full" />
 
                         </div>
                         <div class="text-center mt-3">
-                            <h2 class="text-dark dark:text-gray-900 text-base font-semibold">Dr. A.V.S. Prasad
+                            <h2 class="text-dark dark:text-gray-900 text-base font-semibold">Dr. N. Venkatram
 
 
 
                             </h2>
-                            <p class="text-body-color dark:text-dark-6 text-xs">Hon’ble Pro Vice-Chancellor, KLEF </p>
+                            <p class="text-body-color dark:text-dark-6 text-xs">Pro Vice-Chancellor, KLEF </p>
                         </div>
 
                     </div>
@@ -127,16 +127,16 @@
                 <div class="w-full px-4 md:w-1/2 xl:w-1/4">
                     <div class="mx-auto mb-10 w-full max-w-[370px]">
                         <div class="relative overflow-hidden rounded-lg">
-                            <img src="../assets/images2/venkataram.jpg" alt="image" class="w-full" />
+                            <img src="../assets/images2/avs prasad.jpg" alt="image" class="w-full" />
 
                         </div>
                         <div class="text-center mt-3">
-                            <h3 class="text-dark dark:text-gray-900 text-base font-semibold">Dr. N. Venkatram
+                            <h3 class="text-dark dark:text-gray-900 text-base font-semibold">Dr. A.V.S. Prasad
 
 
 
                             </h3>
-                            <p class="text-body-color dark:text-dark-6 text-xs">Hon’ble Pro Vice-Chancellor, KLEF </p>
+                            <p class="text-body-color dark:text-dark-6 text-xs"> Pro Vice-Chancellor, KLEF </p>
                         </div>
                     </div>
                 </div>
@@ -154,7 +154,7 @@
 
 
                             </h2>
-                            <p class="text-body-color dark:text-dark-6 text-xs">Hon’ble Registrar, KLEF </p>
+                            <p class="text-body-color dark:text-dark-6 text-xs"> Registrar, KLEF </p>
                         </div>
 
                     </div>
@@ -173,7 +173,7 @@
 
 
                             </h3>
-                            <p class="text-body-color dark:text-dark-6 text-xs">Hon’ble CCO & Director–FED,KLEF</p>
+                            <p class="text-body-color dark:text-dark-6 text-xs"> CCO & Director–FED,KLEF</p>
                         </div>
                     </div>
                 </div>
