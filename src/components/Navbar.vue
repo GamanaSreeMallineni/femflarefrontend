@@ -59,7 +59,7 @@
                     </MenuItem>
                     <MenuItem v-slot="{ active }">
                     <a href="/#/conveners"
-                      :class="[active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-50 hover:text-gray-900 ']">Conveners</a>
+                      :class="[active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-50 hover:text-gray-900 ']">Chairperson,Conveners & Co-Conveners</a>
                     </MenuItem>
 
                     <MenuItem v-slot="{ active }">
