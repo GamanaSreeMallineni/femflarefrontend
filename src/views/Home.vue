@@ -1,9 +1,11 @@
 <template>
     <div as="nav" class="fixed w-screen z-10 mt-16 ">
         <div class="flex items-center">
-            <img class="h-8 w-auto mr-auto lg:h-16" src="../assets/klh.png" alt="Logo" />
-            <img class="h-8 w-auto  lg:h-16" src="../assets/kl_logo.png" alt="Logo" />
-            <img class="h-14 w-auto ml-auto mx-4 lg:h-20" src="../assets/womens_logo.png" alt="Logo" />
+            <div>
+                <img class="h-8 w-auto ml-10 lg:h-16 inline" src="../assets/klh.png" alt="Logo" />
+                <img class="h-8 w-auto mx-10 lg:h-16 inline" src="../assets/kl_logo.png" alt="Logo" />
+            </div>
+            <img class="h-14 w-auto ml-auto mr-10 mt-2 mx-4 lg:h-20" src="../assets/womens_logo.png" alt="Logo" />
         </div>
     </div>
     <div class="background  " style="z-index: 0;">
@@ -77,7 +79,8 @@
                     This two-day extravaganza empowers women through workshops, talks, and exhibitions, fostering
                     leadership skills. Be inspired by success stories of women overcoming challenges and achieving their
                     dreams. Network with fellow participants and learn from experts in business, technology, arts, and
-                    social justice and win 1 lakh Prize money. Join us as we celebrate women's achievements and pave the way for a more equitable
+                    social justice and win 1 lakh Prize money. Join us as we celebrate women's achievements and pave the
+                    way for a more equitable
                     future – together!</p>
             </div>
             <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
@@ -88,7 +91,7 @@
         <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
             <div class="mx-auto place-self-center  lg:col-span-5">
 
-                <img src="../assets/kl_logo.png" alt="image"/>
+                <img src="../assets/kl_logo.png" alt="image" />
 
             </div>
             <div class="mr-auto place-self-center lg:col-span-7">

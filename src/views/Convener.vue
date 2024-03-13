@@ -114,11 +114,11 @@
                     </div>
                 </div>
 
+                <h2 class="text-3xl md:text-4xl font-bold mb-4 text-center"
+                    style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: #ee074d;">
+                    Co-Conveners</h2>
+                <div class="container md:flex mx-auto justify-center">
 
-                <div class="container mx-auto">
-                    <h2 class="text-3xl md:text-4xl font-bold mb-4 text-center"
-                        style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: #ee074d;">
-                        Co-Conveners</h2>
 
 
 
