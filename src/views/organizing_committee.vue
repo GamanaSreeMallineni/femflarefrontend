@@ -1,6 +1,6 @@
 <template>
-  <h2 class="text-center text-2xl md:text-3xl lg:text-4xl font-bold mb-8 pt-24">Organizing Committee</h2>
-  <div class="overflow-x-auto  px-6 pb-10">
+  <h2 class="text-center text-2xl md:text-3xl lg:text-4xl font-bold mb-8 pt-">Organizing Committee</h2>
+  <div class="overflow-x-auto  px-6">
     <table class="table-auto w-full">
       <thead>
         <tr class="bg-gray-800 text-white">
