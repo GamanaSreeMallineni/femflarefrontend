@@ -13,6 +13,7 @@ import CoConvner from '@/views/CoConvner.vue'
 import profile from '@/views/profile.vue'
 import EditProfile from '@/views/EditProfile.vue'
 import ourvisionaryVue from '@/views/ourvisionary.vue'
+import organizing_committeeVue from '@/views/organizing_committee.vue'
 
 const routes = [
   {
@@ -92,6 +93,12 @@ const routes = [
     name: 'editprofile',
     props: true,
     component: EditProfile
+  },
+  {
+    path: '/organizingcommittee',
+    name: 'organizingcommittee',
+    props: true,
+    component: organizing_committeeVue
   },
   {
     path: '/events',

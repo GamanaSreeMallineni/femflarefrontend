@@ -63,6 +63,12 @@
                     </MenuItem>
 
                     <MenuItem v-slot="{ active }">
+                    <a href="/#/organizingcommittee"
+                      :class="[active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-50 hover:text-gray-900 ']">Organizing Committee
+                      </a>
+                    </MenuItem>
+
+                    <MenuItem v-slot="{ active }">
                     <a href="/#/team"
                       :class="[active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-50 hover:text-gray-900 ']">Chief Student
                       Co-ordinators</a>
