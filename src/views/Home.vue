@@ -66,6 +66,7 @@
     </kinesis-container>
 
     <section class="bg-gray-900 absolute w-full z-10" id="about">
+
         <div class="  grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
             <div class="mr-auto place-self-center lg:col-span-7">
                 <h1 class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl text-gray-50"
@@ -123,6 +124,23 @@
             </div>
 
 
+        </div>
+        
+        <div class="  grid max-w-screen-xl space-x-5 px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
+
+            <div class="lg:mt-0 lg:col-span-5 lg:flex">
+                <img class="rounded-xl" src="../assets/djreha.png">
+            </div>
+            <div class="mr-auto place-self-center lg:col-span-7">
+
+                <p
+                    class="max-w-2xl mb-6 font-light text-gray-50 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-50 text-justify">
+                    DJ Rhea, is a powerhouse in the world of DJs, Seamlessly blending genres and captivating audiences
+                    worldwide, she's a force in the industry. Whether at sold-out festivals or prestigious clubs, her
+                    distinctive style and unique beats leave a lasting impression. With 655k followers on Instagram, DJ
+                    Rhea's magnetic charisma continues to draw fans from every corner of the country, solidifying her as
+                    one of the most exciting talents in the field.</p>
+            </div>
         </div>
         <div class="h-full w-full bg-gray-50">
             <img src="../assets/KL_Ranks.png" alt="image" class="w-full h-30" />
