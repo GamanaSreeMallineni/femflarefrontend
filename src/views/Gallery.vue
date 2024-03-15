@@ -2,7 +2,7 @@
 
 </script>
 <template>
-  <section id="gallery" class="bg-gray-900">
+  <section id="gallery" class="bg-gradient-to-r from-slate-900 via-pink-900 to-slate-900">
     <div class=" mx-auto w-full pb-10 lg:px-32 lg:pt-24">
       <h2 class="text-4xl font-bold text-center text-pink-700 text-cursive mb-4">Gallery</h2>
       <div class="-m-1 flex flex-wrap md:-m-2">

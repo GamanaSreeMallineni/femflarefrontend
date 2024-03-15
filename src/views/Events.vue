@@ -1,10 +1,10 @@
 <template>
-  <div class="min-h-screen h-full bg-gray-900 pt-14">
+  <div class="min-h-screen h-full bg-gradient-to-r from-slate-900 via-pink-900 to-slate-900 pt-14">
     <section id="events">
       <main class="p-5 bg-light-pink">
         <div class="flex justify-center items-start my-2">
           <div class="w-full sm:w-10/12 md:w-3/4 my-1">
-            <h1 class="text-2xl font-semibold text-pink-500 mb-2 text-center" style="font-family: 'Arial', sans-serif;">
+            <h1 class="text-2xl font-semibold shadow-sm text-pink-400 mb-2 text-center" style="font-family: 'Arial', sans-serif;">
               EVENTS</h1>
             <div>
               <div class="sm:hidden">
@@ -68,6 +68,10 @@
                   <p class="font-medium inline">Description</p> : {{ event.description }}</p>
                   <p class="p-3 text-gray-900">
                   <p class="font-medium inline">Venue</p> : {{ event.venue }}</p>
+                  <p class="p-3 text-gray-800">
+                  <p class="font-medium inline">Start Time</p> : {{ event.start_time.replace(/T|Z/g, " ") }}</p>
+                  <p class="p-3 text-gray-800">
+                  <p class="font-medium inline">End Time</p> : {{ event.end_time.replace(/T|Z/g, " ") }}</p>
                 </div>
               </li>
             </ul>
