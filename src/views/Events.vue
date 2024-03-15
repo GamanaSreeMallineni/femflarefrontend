@@ -94,6 +94,8 @@ const msfemflare = ref([{
   'registration_link': 'https://forms.office.com/r/1nbCBDmRYn%5C',
   'description': "Ms and Mrs. FemFlare is a glamorous rampwalk and beauty competition that shines a spotlight on the elegance, poise, and confidence of women in our community. It's a dazzling showcase where contestants exude grace and charm as they strut down the runway, showcasing their individual style and personality. Beyond just physical beauty, this event celebrates inner strength, intelligence, and achievements, embodying the essence of modern femininity. With each contestant bringing her unique flair to the stage, Ms and Mrs. FemFlare is a celebration of diversity, empowerment, and feminine grace, highlighting beauty with brains.",
   'venue': 'OAT',
+  'start_time':'2024-03-15T01:30:00Z',
+  'end_time':'2024-03-15T03:00:00Z'
 }])
 
 const toggleAccordion = (index) => {
