@@ -82,7 +82,7 @@ const handleSubmit = async () => {
                             type="text" placeholder="Username" aria-label="username" name="username" required />
                     </div>
                     <div>
-                        <input type="text" id="collage" v-model="collage" placeholder="Enter your Collage Name"
+                        <input type="text" id="collage" v-model="collage" placeholder="Enter your College Name"
                             autocomplete="off" required
                             class="block w-full px-4 py-2 mt-4 text-gray-50 placeholder-gray-400 bg-gray-800 border rounded-lg focus:border-blue-400 focus:ring-opacity-40 focus:outline-none focus:ring focus:ring-blue-300" />
                     </div>

@@ -106,9 +106,10 @@
 
 
 
-            <div class="-mx-4 flex flex-wrap justify-center">
-                <div class="w-full px-4 md:w-1/2 xl:w-1/4">
-                    <div class="mx-auto mb-10 w-full max-w-[370px]">
+            <div class="flex flex-nowrap justify-center gap-4 overflow-x-auto">
+
+                <div class="w-full px-1 md:w-1/3 xl:w-1/2">
+                    <div class="mx-auto mb-3 w-full max-w-[250px]">
                         <div class="relative overflow-hidden rounded-lg">
                             <img src="../assets/images2/venkataram.jpg" alt="image" class="w-full" />
 
@@ -124,8 +125,8 @@
 
                     </div>
                 </div>
-                <div class="w-full px-4 md:w-1/2 xl:w-1/4">
-                    <div class="mx-auto mb-10 w-full max-w-[370px]">
+                <div class="w-full px-1 md:w-1/3 xl:w-1/2">
+                    <div class="mx-auto mb-5 w-full max-w-[250px]">
                         <div class="relative overflow-hidden rounded-lg">
                             <img src="../assets/images2/avs prasad.jpg" alt="image" class="w-full" />
 
@@ -140,10 +141,27 @@
                         </div>
                     </div>
                 </div>
+                <div class="w-full px-1 md:w-1/3 xl:w-1/2">
+                    <div class="mx-auto mb-6 w-full max-w-[200px]">
+                        <div class="relative overflow-hidden rounded-lg">
+                            <img src="../assets/images2/K_rajasekhra.jpg" alt="image" class="w-full" />
+
+                        </div>
+                        <div class="text-center mt-3">
+                            <h3 class="text-dark dark:text-gray-900 text-base font-semibold">Dr. Kurra Rajasekhara Rao
+
+
+
+                            </h3>
+                            <p class="text-body-color dark:text-dark-6 text-xs"> Pro Vice-Chancellor, KLEF </p>
+                        </div>
+                    </div>
+                </div>
+                
             </div>
             <div class="-mx-4 flex flex-wrap justify-center">
-                <div class="w-full px-4 md:w-1/2 xl:w-1/4">
-                    <div class="mx-auto mb-10 w-full max-w-[370px]">
+                <div class="w-full px-2 md:w-1/3 xl:w-1/4">
+                    <div class="mx-auto mb-10 w-full max-w-[250px]">
                         <div class="relative overflow-hidden rounded-lg">
                             <img src="../assets/images2/subba rao.jpg" alt="image" class="w-full" />
 
@@ -159,8 +177,8 @@
 
                     </div>
                 </div>
-                <div class="w-full px-4 md:w-1/2 xl:w-1/4">
-                    <div class="mx-auto mb-10 w-full max-w-[370px]">
+                <div class="w-full px-2 md:w-1/3 xl:w-1/4">
+                    <div class="mx-auto mb-10 w-full max-w-[250px]">
                         <div class="relative overflow-hidden rounded-lg">
                             <img src="../assets/images2/Jagadeesh.jpeg" alt="image" class="w-full" />
 
@@ -176,6 +194,7 @@
                             <p class="text-body-color dark:text-dark-6 text-xs"> CCO & Director–FED,KLEF</p>
                         </div>
                     </div>
+                    
                 </div>
             </div>
 

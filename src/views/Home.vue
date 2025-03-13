@@ -2,10 +2,10 @@
     <div as="nav" class="fixed w-screen z-10 mt-16 ">
         <div class="flex items-center">
             <div>
-                <img class="h-8 w-auto ml-10 lg:h-16 inline" src="../assets/klh.png" alt="Logo" />
-                <img class="h-8 w-auto mx-10 lg:h-16 inline" src="../assets/kl_logo.png" alt="Logo" />
+                <img class="h-5 w-auto ml-5 lg:h-10 inline" src="../assets/kl_logo.png" alt="Logo" />
+                <img class="h-5 w-auto mx-5 lg:h-10 inline" src="../assets/klh.png" alt="Logo" />
             </div>
-            <img class="h-14 w-auto ml-auto mr-10 mt-2 mx-4 lg:h-20" src="../assets/womens_logo.png" alt="Logo" />
+            <img class="h-20 w-auto ml-auto mr-10 mt-2 mx-4 lg:h-20" src="../assets/womens_logo.png" alt="Logo" />
         </div>
     </div>
     <div class="background  " style="z-index: 0;">
@@ -20,15 +20,15 @@
             <div class="container mx-auto px-4">
                 <div class="flex flex-col items-center justify-center text-center" v-if="isLargeScreen">
                     <kinesis-element :strength="10">
-                        <h1 class="text-5xl lg:text-9xl font-extrabold text-transparent bg-gradient-to-r from-green-800 via-blue-800 to-purple-800 bg-clip-text mb-8 "
+                        <h1 class="mt-20 text-5xl lg:text-9xl font-extrabold text-transparent bg-gradient-to-r from-green-800 via-blue-800 to-purple-800 bg-clip-text mb-8 "
                             style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
-                            FEMFLARE 2024</h1>
+                            FEMFLARE 2025</h1>
                     </kinesis-element>
                     <div class="flex items-center justify-center mb-8">
 
                         <div class="flex flex-col items-center">
                             <kinesis-element :strength="5">
-                                <Countdown labelColor="black" deadlineISO="2024-03-15 00:00:00" mainColor="#FF407D" />
+                                <Countdown labelColor="black" deadlineISO="2025-03-21 00:00:00" mainColor="#FF407D" />
                             </kinesis-element>
                         </div>
                     </div>
@@ -39,9 +39,9 @@
                 </div>
                 <div class="flex flex-col items-center justify-center text-center" v-else>
 
-                    <h1 class="text-5xl font-bold text-pink-500 mb-8 "
+                    <h1 class="mt-15 text-5xl font-bold text-pink-500 mb-8 "
                         style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
-                        FEMFLARE 2024</h1>
+                        FEMFLARE 2025</h1>
 
 
                     <div class="flex items-center justify-center mb-8">
@@ -49,7 +49,7 @@
                         <div class="flex flex-col items-center">
 
 
-                            <Countdown labelColor="#ffffff" deadlineISO="2024-03-15 00:00:00" mainColor="#FF407D" />
+                            <Countdown labelColor="#ffffff" deadlineISO="2025-03-21 00:00:00" mainColor="#FF407D" />
 
                         </div>
                     </div>
@@ -68,24 +68,27 @@
     <section class="bg-gray-900 absolute w-full z-10" id="about">
 
         <div class="  grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
-            <div class="mr-auto place-self-center lg:col-span-7">
-                <h1 class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl text-gray-50"
+            <div class="mobile-only mb-12 lg:mt-0 lg:col-span-6 lg:flex ">
+                <img src="../assets/logo.png" alt="mockup" class="animate-pulse">
+            </div>
+            <div class="mr-auto place-self-center lg:col-span-6">
+                <h1 class="max-w-2xl mb-4 text-3xl font-extrabold tracking-tight leading-none md:text-4xl xl:text-5xl text-gray-50"
                     style="font-family: 'Tangerine', serif; color: rgb(246, 51, 165);">Celebration of
                     Womenhood</h1>
                 <p
                     class="max-w-2xl mb-6 font-light text-gray-50 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-50 text-justify">
-                    FemFlare is more than a festival it's a vibrant celebration of womanhood! We gather diverse women
-                    from across the globe to showcase their talents, share experiences, and ignite connections.
-
-                    This two-day extravaganza empowers women through workshops, talks, and exhibitions, fostering
-                    leadership skills. Be inspired by success stories of women overcoming challenges and achieving their
-                    dreams. Network with fellow participants and learn from experts in business, technology, arts, and
-                    social justice and win 1 lakh Prize money. Join us as we celebrate women's achievements and pave the
-                    way for a more equitable
-                    future – together!</p>
+                    FemFlare is more than just a festival, it’s a movement! Under this year’s theme, 
+                    <b>AccelerateAction</b>, we bring together diverse women from across the globe to drive change, 
+                    showcase talents, and build lasting connections. This two-day extravaganza is designed to 
+                    empower women through dynamic workshops, thought-provoking talks, and inspiring exhibitions, 
+                    fostering leadership and innovation. Hear success stories of trailblazing women who have 
+                    shattered barriers and turned aspirations into reality. Engage with experts in business, 
+                    technology, arts, and social justice, and stand a chance to win ₹1 lakh in prize money. 
+                    Join us as we take bold steps toward a more inclusive and equitable future - because together,
+                     we don’t just dream of change, we AccelerateAction! </p>
             </div>
-            <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
-                <img src="../assets/images/logos/flem3.png" alt="mockup" class="animate-pulse">
+            <div class="desktop-only lg:mt-0 lg:col-span-6 lg:flex ">
+                <img src="../assets/logo.png" alt="mockup" class="animate-pulse">
             </div>
         </div>
 
@@ -98,7 +101,7 @@
             <div class="mr-auto place-self-center lg:col-span-7">
 
                 <p
-                    class="max-w-2xl mb-6 font-light text-gray-50 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-50 text-justify">
+                    class="ml-12 max-w-2xl mb-6 font-light text-gray-50 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-50 text-justify">
                     K L University shines in the prestigious NIRF 2023 Rankings, securing impressive positions across
                     multiple categories. Ranked #28 in Universities, #44 in Engineering, #52 in Management, and #50
                     Overall, this accomplishment highlights our dedication to academic excellence and holistic
@@ -106,8 +109,14 @@
             </div>
 
         </div>
-        <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
-            <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
+        <div class="container grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
+            
+            <div class="mobile-only mx-auto place-self-center lg:col-span-6">
+
+                <img src="../assets/womens_logo.png" alt="image" class="w-64 h-64 md:h-80 md:w-80" />
+
+            </div>
+            <div class=" lg:mt-0 lg:col-span-6 lg:flex">
 
                 <p
                     class="max-w-2xl mb-6 font-light text-gray-50 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-50 text-justify">
@@ -117,16 +126,16 @@
                     campus. We strive to address gender discrimination, prevent sexual harassment, and ensure equitable
                     opportunities for all genders within the university community.</p>
             </div>
-            <div class="mx-auto place-self-center lg:col-span-7">
+            <div class="desktop-only mx-auto place-self-center lg:col-span-6">
 
-                <img src="../assets/womens_logo.png" alt="image" class="w-64 h-64 md:h-80 md:w-80 animate-pulse" />
+                <img src="../assets/womens_logo.png" alt="image" class="w-64 h-64 md:h-80 md:w-80" />
 
             </div>
 
 
         </div>
         
-        <div class="  grid max-w-screen-xl space-x-5 px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
+        <!-- <div class="  grid max-w-screen-xl space-x-5 px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
 
             <div class="lg:mt-0 lg:col-span-5 lg:flex">
                 <img class="rounded-xl" src="../assets/djreha.png">
@@ -141,9 +150,9 @@
                     Rhea's magnetic charisma continues to draw fans from every corner of the country, solidifying her as
                     one of the most exciting talents in the field.</p>
             </div>
-        </div>
+        </div> -->
         <div class="h-full w-full bg-gray-50">
-            <img src="../assets/KL_Ranks.png" alt="image" class="w-full h-30" />
+            <img src="../assets/KL_Ranks.jpg" alt="image" class="w-full h-30" />
         </div>
     </section>
 
@@ -207,6 +216,21 @@ onUnmounted(() => {
     z-index: -10;
     pointer-events: none;
     transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+/* Default: Hide mobile image and show desktop image */
+.mobile-only {
+  display: none;
+}
+
+/* Show mobile image, hide desktop image on small screens */
+@media (max-width: 768px) {
+  .mobile-only {
+    display: block;
+  }
+  .desktop-only {
+    display: none;
+  }
 }
 
 .button::after {

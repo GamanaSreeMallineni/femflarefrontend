@@ -32,7 +32,7 @@
                     class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">
                     <span class="absolute -inset-1.5" />
                     <span class="sr-only">Team</span>
-                    Team
+                     Committee
                   </MenuButton>
                 </div>
                 <transition enter-active-class="transition ease-out duration-100"
@@ -205,7 +205,7 @@ console.log(authStore.isAuth)
 
 const navigation = [
   { name: 'Home', href: '/', current: false },
-  { name: 'Our Visionary', href: '/#/ourvisionary', current: false },
+  { name: 'Our Visionaries', href: '/#/ourvisionary', current: false },
   { name: 'Events', href: '/#/events', current: false },
   { name: 'Gallery', href: '/#/gallery', current: false },
 ]
