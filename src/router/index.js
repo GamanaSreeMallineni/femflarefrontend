@@ -23,7 +23,7 @@ const routes = [
     props: true,
   },
   {
-    path: '/femflarefrontend/ourvisionary',
+    path: '/ourvisionary',
     name: 'ourvisionary',
     component: ourvisionaryVue,
     props: true,
