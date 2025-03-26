@@ -106,14 +106,12 @@ const routes = [
     props: true,
     component: EventsVue
   },
-
-
 ]
 
 const router = createRouter({
-  // 4. Provide the history implementation to use. We are using the hash history for simplicity here.
-  history: createWebHashHistory(),
-  routes, // short for `routes: routes`
+  // Use import.meta.env.BASE_URL to correctly set the base path for GitHub Pages
+  history: createWebHashHistory(import.meta.env.BASE_URL),
+  routes,
 })
 
 export default router
