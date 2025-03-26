@@ -16,101 +16,26 @@ import ourvisionaryVue from '@/views/ourvisionary.vue'
 import organizing_committeeVue from '@/views/organizing_committee.vue'
 
 const routes = [
-  {
-    path: '/',
-    name: 'Home',
-    component: Home,
-    props: true,
-  },
-  {
-    path: '/ourvisionary',
-    name: 'ourvisionary',
-    component: ourvisionaryVue,
-    props: true,
-  },
-  {
-    path: '/about',
-    name: 'about',
-    props: true,
-    component: AboutVue
-  },
-  {
-    path: '/team',
-    name: 'team',
-    props: true,
-    component: Team
-  },
-  {
-    path: '/gallery',
-    name: 'gallery',
-    props: true,
-    component: Gallery
-  },
-  {
-    path: '/login',
-    name: 'login',
-    props: true,
-    component: loginVue
-  },
-  {
-    path: '/signup',
-    name: 'signup',
-    props: true,
-    component: signupVue
-  },
-  {
-    path: '/patronsadvisors',
-    name: 'patronsadvisors',
-    props: true,
-    component: patronsadvisorsVue
-  },
-  {
-    path: '/chiefpatrons',
-    name: 'chiefpatrons',
-    props: true,
-    component: chiefpatronsVue
-  },
-  {
-    path: '/conveners',
-    name: 'conveners',
-    props: true,
-    component: Convener
-  },
-  {
-    path: '/coconveners',
-    name: 'coconveners',
-    props: true,
-    component: CoConvner
-  },
-  {
-    path: '/profile',
-    name: 'profile',
-    props: true,
-    component: profile
-  },
-  {
-    path: '/profile/edit',
-    name: 'editprofile',
-    props: true,
-    component: EditProfile
-  },
-  {
-    path: '/organizingcommittee',
-    name: 'organizingcommittee',
-    props: true,
-    component: organizing_committeeVue
-  },
-  {
-    path: '/events',
-    name: 'events',
-    props: true,
-    component: EventsVue
-  },
-]
+  { path: '/', name: 'Home', component: Home, props: true },
+  { path: '/ourvisionary', name: 'ourvisionary', component: ourvisionaryVue, props: true },
+  { path: '/about', name: 'about', component: AboutVue, props: true },
+  { path: '/team', name: 'team', component: Team, props: true },
+  { path: '/gallery', name: 'gallery', component: Gallery, props: true },
+  { path: '/login', name: 'login', component: loginVue, props: true },
+  { path: '/signup', name: 'signup', component: signupVue, props: true },
+  { path: '/patronsadvisors', name: 'patronsadvisors', component: patronsadvisorsVue, props: true },
+  { path: '/chiefpatrons', name: 'chiefpatrons', component: chiefpatronsVue, props: true },
+  { path: '/conveners', name: 'conveners', component: Convener, props: true },
+  { path: '/coconveners', name: 'coconveners', component: CoConvner, props: true },
+  { path: '/profile', name: 'profile', component: profile, props: true },
+  { path: '/profile/edit', name: 'editprofile', component: EditProfile, props: true },
+  { path: '/organizingcommittee', name: 'organizingcommittee', component: organizing_committeeVue, props: true },
+  { path: '/events', name: 'events', component: EventsVue, props: true }
+];
 
-// const router = createRouter({
-//   history: createWebHashHistory(import.meta.env.BASE_URL),
-//   routes,
-// })
+const router = createRouter({
+  history: createWebHashHistory('/femflarefrontend/'), // Set base path
+  routes
+});
 
-export default router
+export default router;
