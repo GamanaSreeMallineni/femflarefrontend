@@ -23,7 +23,7 @@ const routes = [
     props: true,
   },
   {
-    path: '/ourvisionary',
+    path: '/femflarefrontend/ourvisionary',
     name: 'ourvisionary',
     component: ourvisionaryVue,
     props: true,
@@ -109,7 +109,6 @@ const routes = [
 ]
 
 const router = createRouter({
-  // Use import.meta.env.BASE_URL to correctly set the base path for GitHub Pages
   history: createWebHashHistory(import.meta.env.BASE_URL),
   routes,
 })
