@@ -8,7 +8,7 @@ export default defineConfig({
   plugins: [
     vue(),
   ],
-  base: 'femflare-frontend',
+  base: 'femflare-front1',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
