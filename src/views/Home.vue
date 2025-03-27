@@ -49,7 +49,7 @@
                         <div class="flex flex-col items-center">
 
 
-                            <Countdown labelColor="#ffffff" deadlineISO="2025-03-22 00:00:00" mainColor="#FF407D" />
+                            <Countdown labelColor="#ffffff" deadlineISO="2025-04-12 00:00:00" mainColor="#FF407D" />
 
                         </div>
                     </div>
